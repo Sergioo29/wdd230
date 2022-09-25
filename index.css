@@ -32,6 +32,7 @@ header{
 
 footer{
     padding: 0 30%;
+    text-align: center;
     background-color: rgb(41, 27, 95);
     color: whitesmoke;
     font-size: 1.2em;
