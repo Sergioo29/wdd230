@@ -1,0 +1,116 @@
+body{
+    margin: 0%   10%;
+    max-width: 1600px;
+    font-family: sans-serif;
+    background-color: black;
+    color: whitesmoke;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 5px;
+    background-color: rgb(41, 27, 95);
+    color: whitesmoke;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 20px #494a42;
+    text-shadow: 2px 2px 10px #000000;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(33, 22, 78);
+    box-shadow: 5px 5px 20px #494a42;
+    text-decoration: none;
+
+}
+nav a{
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover { background-color:  whitesmoke; color: black; opacity: 50%;}
+
+.heading{
+    background-color:rgb(41, 27, 95);
+    border-radius:  10px 10px 0px 0px;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 0px;
+}
+
+header{ text-shadow: 2px 2px 10px #252622; }
+
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: rgb(41, 27, 95);
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: #303f9f;
+  }
+  .secondary {
+    background-color: #001970;
+  }
+  .accent1 {
+    background-color: black;
+  }
+  .accent2{
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  #headingFont{ font-family: 'Noto Sans Mono', monospace;}
+  #paragraphFont{ font-family: 'Stalinist One';}
+  
+  #colored{
+    background-color: #303f9f;
+    padding: 5px;}
+
+footer{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    padding:  0.2px;
+    background-color: rgb(41, 27, 95);
+    color: whitesmoke;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #494a42;
+}
+#time{color: yellow;}
+
+
+@media screen and (max-width: 840px) {
+    body{
+        margin: 0px;
+        text-align: center;
+        font-size: 0.85em;
+
+    }
+    header{
+        text-align: center;
+        grid-template-columns: 1fr;
+        font-size: 0.85em;
+    }
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
