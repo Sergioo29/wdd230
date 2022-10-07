@@ -75,7 +75,7 @@ tr{ color: whitesmoke;}
   }
 
   #headingFont{ font-family: 'Stalinist One', monospace;}
-  #paragraphFont{ font-family: 'Noto Sans Mono';}
+  .paragraphFont{ font-family: 'Noto Sans Mono';}
   
   #colored{
     font-family: 'Noto Sans Mono';
