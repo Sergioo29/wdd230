@@ -2,13 +2,10 @@ body{
     margin: 0%   10%;
     max-width: 1600px;
     font-family: sans-serif;
-    background-color: black;
-    color: whitesmoke;
 }
 
 header{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
+    text-align: center;
     padding: 5px;
     background-color: rgb(41, 27, 95);
     color: whitesmoke;
@@ -19,9 +16,16 @@ header{
 
 #logo{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 10px;
 }
+.pic{
+  display: block;
+  margin: auto;
+  border: 10px solid rgb(33, 22, 78);
+
+}
+
+.info{ padding: 2%;}
 
 nav{
     display: flex;
@@ -40,16 +44,9 @@ nav a{
 }
 nav a:hover { background-color:  whitesmoke; color: black; opacity: 50%;}
 
-.heading{
-    background-color:rgb(41, 27, 95);
-    border-radius:  10px 10px 0px 0px;
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 0px;
-}
-
 header{ text-shadow: 2px 2px 10px #252622; }
 
+tr{ color: whitesmoke;}
   .colors {
     width: 100%;
     min-width: 350px;
@@ -77,12 +74,19 @@ header{ text-shadow: 2px 2px 10px #252622; }
     color: black;
   }
 
-  #headingFont{ font-family: 'Noto Sans Mono', monospace;}
-  #paragraphFont{ font-family: 'Stalinist One';}
+  #headingFont{ font-family: 'Stalinist One', monospace;}
+  #paragraphFont{ font-family: 'Noto Sans Mono';}
   
   #colored{
-    background-color: #303f9f;
+    font-family: 'Noto Sans Mono';
+    background-color: #001970;
+    color: whitesmoke;
     padding: 5px;}
+
+#joe, #jane{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
 
 footer{
     text-align: center;
@@ -97,20 +101,30 @@ footer{
 #time{color: yellow;}
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1000px) {
     body{
         margin: 0px;
         text-align: center;
         font-size: 0.85em;
 
     }
+    #content{ margin: 0px 30px;}
     header{
         text-align: center;
         grid-template-columns: 1fr;
-        font-size: 0.85em;
+        font-size: 0.99em;
     }
+
+    #logo{
+      margin-left: auto;
+      margin-right: auto;
+  }
+
     nav{
-        display: grid;
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        box-shadow: none;
+    }
+    nav a {
+      padding: 15px;
     }
 }
