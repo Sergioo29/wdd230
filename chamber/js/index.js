@@ -1,4 +1,4 @@
-const options = {day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'};
+const options = {day: 'numeric', month: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'};
 const justYear = {year: 'numeric'};
 
 const datefield = document.querySelector(".today");
