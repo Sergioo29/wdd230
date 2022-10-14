@@ -36,8 +36,18 @@
     #join{
         display: none;
     }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
         
-   
+   footer .logo {
+    display: block;
+    width: 20%;
+   }
+   #footername {text-align: center;}
 
 
 

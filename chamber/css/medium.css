@@ -8,6 +8,11 @@
     }
     nav{ display: none;}
 
+    .topnav { 
+        display: flex;
+        justify-self: center;
+    }
+
 
     main{ margin: 0px 30px;}
 

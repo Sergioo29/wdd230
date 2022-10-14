@@ -32,6 +32,32 @@ header{
     padding-left: 20px;
 }
 
+
+.topnav { 
+    display: none;
+}
+  
+#myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.topnav a:hover { background-color: whitesmoke; color: black; }
+  
+
 nav a{
     color: whitesmoke;
     font-weight: bold;
