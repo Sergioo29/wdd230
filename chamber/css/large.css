@@ -50,12 +50,11 @@ header{
 }
   
 .topnav a.icon {
-    background: black;
     position: absolute;
     right: 0px;
     top: 0px;
 }
-.topnav a:hover { background-color: whitesmoke; color: black; }
+.topnav a:hover { background-color: #001970; }
   
 
 nav a{
@@ -64,7 +63,7 @@ nav a{
     text-decoration: none;
     padding: 6px;
 }
-nav a:hover { background-color:  whitesmoke; color: black; opacity: 50%;}
+nav a:hover { background-color:  #001970}
   
 .today, #event, #hero, #spotlight, #weather, #join, #news{
 background-color: #001970;
