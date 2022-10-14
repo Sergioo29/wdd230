@@ -6,10 +6,10 @@ body{
     background-color: black;
 }
 
-main { margin: 0px 10%;}
+main { margin: 20px 5%;}
 
-.logo{padding-left:70px; padding-top: 20px;}
-#name{  font-family: 'Stalinist One', monospace; margin: 0px; }
+.logo{padding-left:80px; padding-top: 40px;}
+#name{  font-family: 'Stalinist One', monospace; margin: 0px;}
 header{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -17,16 +17,21 @@ header{
     background-color: #303f9f;
     color: whitesmoke;
     font-size: 1.5em;
-    box-shadow: 5px 5px 20px #494a42;
-    text-shadow: 2px 2px 10px #252622;
+    text-shadow: 2px 2px 10px black;
 }
 
-#today{
+.today{
     grid-column: 1/5;
     margin: 10px;
     padding: 5px;
 }
 #name, nav, #smedia {padding: 50px 0px;}
+
+#smedia {
+    display: flex;
+    padding-left: 20px;
+}
+
 nav a{
     color: whitesmoke;
     font-weight: bold;
@@ -35,7 +40,7 @@ nav a{
 }
 nav a:hover { background-color:  whitesmoke; color: black; opacity: 50%;}
   
-#today, #event, #hero, #spotlight, #weather, #join, #news{
+.today, #event, #hero, #spotlight, #weather, #join, #news{
 background-color: #001970;
 border: 1px solid whitesmoke;
 }
@@ -80,9 +85,9 @@ footer{
     background-color: #303f9f;
     color: whitesmoke;
     font-size: 1.2em;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px #494a42;
 }
+footer .logo { width: 50%; padding-left: 150px;}
+#footername { text-align: left; padding-left: 20px; font-size: 1.1em;}
 #copyright{ grid-column: 1/4;}
 #time{color: yellow;}
 
