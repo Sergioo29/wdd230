@@ -63,7 +63,7 @@ nav a{
     text-decoration: none;
     padding: 6px;
 }
-nav a:hover { background-color:  #001970}
+nav a:hover { background-color:  #001970;}
   
 .today, #event, #hero, #spotlight, #weather, #join, #news{
 background-color: #001970;
@@ -77,18 +77,83 @@ border: 1px solid whitesmoke;
 }
 #grid p { padding: 10px; }
 
+
+
+
+
+
 #hero{
     grid-column: 2/3;
     grid-row: 1/3;
+    text-align: center;
+    max-height: 650px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
+
+#hero-img{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    width: 100%;
+    height: 100%;
+    max-height: 650px;
+
+}
+
+#hero-msg{
+    color: white;
+    padding: 5px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+}
+
+#herobutton{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
+
+.joinbutton{
+    margin: 10px 0px;
+    padding: 20px;
+
+}
+.joinbutton a {
+    background-color: darkgoldenrod;
+    padding: 13px;
+    border-radius: 10px;
+    color: whitesmoke; text-decoration: none; font-weight: bold;}
+.joinbutton a:hover{ background-color: whitesmoke; color: black;}
 
 #join{
     grid-column: 1/2;
     grid-row: 3/4;
+    padding: 0px 20px;
+    text-align: center;
 }
+
+#weather {
+    text-align: center;
+    padding: 10px;
+}
+#F { 
+    font-size: 2em; 
+    font-weight:  bold;
+    text-align: center;
+}
+#Fdescription { text-align: right; font-weight: bold; font-size: 1.2em;}
 
 #news{
     grid-column: 2/3;
+}
+
+.heading {
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px 5px yellowgreen;
 }
 
 #spotlight{
