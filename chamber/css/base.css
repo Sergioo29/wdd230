@@ -14,6 +14,17 @@
         grid-row: 1/2;
     }
 
+    .joinbutton{
+        margin: 10px 0px;
+        padding: 0px;
+    
+    }
+    .joinbutton a {
+        background-color: darkgoldenrod;
+        padding: 5px;
+        border-radius: 10px;
+        color: whitesmoke; text-decoration: none; font-weight: bold;}
+
     #event{
         grid-row: 2/3;
     }

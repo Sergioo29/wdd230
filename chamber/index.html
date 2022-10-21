@@ -19,6 +19,19 @@
 <body>
 
     <header>
+
+        <div class="topnav">
+            <div id="myLinks">
+              <a href="">Discover</a>
+              <a href="">Directory</a>
+              <a href="">Join</a>
+              <a href="">Contact</a>
+            </div>
+            <a class="icon" onclick="hambButton()">
+              <img src="images/hamburguer.png" alt="hamburguer icon">
+            </a>
+          </div>
+          
         <img class="logo" src="images/logor.png" alt="Black Chamber logo">
         <h1 id="name">Black Chamber</h1>
 
@@ -34,34 +47,15 @@
             <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo"></a>
         </div>
 
-
-
-        <div class="topnav">
-            <div id="myLinks">
-              <a href="">Discover</a>
-              <a href="">Directory</a>
-              <a href="">Join</a>
-              <a href="">Contact</a>
-            </div>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <img src="images/hamburguer.png" alt="hamburguer icon">
-            </a>
-          </div>
-
-
-
-
-        <div class="today">today</div>
-
+        <div class="today"></div>
     </header>
     
     <main>
-        
     
         <div id="grid">
 
             <div id="event"><h3 class="heading">Event</h3>
-                <p><b>Small Business Kickout</b><br>
+                <p id="todaysevent"><b>Small Business Kickout</b><br>
                     Join us in the new member "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                      totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
                 </div>
@@ -82,6 +76,7 @@
             <div id="spotlight">
                     <div class="spotlights">
                     <h3 class="heading">Sell Something</h3>
+                    <img class="icon" src="images/cash.png" alt="money icon">
                     <p>
                         Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque 
                         nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. 
@@ -90,6 +85,7 @@
                     </div>
                     <div class="spotlights">
                         <h3 class="heading">Producs or Services Near You</h3>
+                        <img class="icon" src="images/buy.png" alt="shopping icon">
                         <p>
                             Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint 
                             et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores 
@@ -98,6 +94,7 @@
                         </div>
                         <div id="spotlight3" class="spotlights">
                             <h3 class="heading">Get Help For Your Intepreneurship</h3>
+                            <img class="icon" src="images/help.png" alt="get help icon">
                             <p>
                                 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas 
                                 molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi
@@ -106,6 +103,7 @@
             </div>
 
             <div id="weather"><h3 class="heading">Weather</h3>
+                <img class="icon" src="images/cloud.png" alt="weather icon">
             <p id="F">200 ° F</p>
             <p id="Fdescription">Kinda Hot</p>
             <hr>
