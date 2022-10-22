@@ -1,6 +1,7 @@
 const options = {day: 'numeric', month: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit'};
 const justYear = {year: 'numeric'};
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(new Date());
+const todaysday = new Date();
 
 
 document.getElementById('date').textContent = new Date (document.lastModified).toLocaleDateString('en-US', options);
@@ -17,7 +18,7 @@ function hambButton() {
     }
   }
 
-/*  
-if () {
-  document.getElementById('todaysevent').textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
-}; */
+  
+ if (todaysday.getDay() == 1 || todaysday.getDay() == 2) {
+   document.getElementById('todaysevent').textContent = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+ }; 
