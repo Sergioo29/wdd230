@@ -8,13 +8,13 @@ body{
 
 main { margin: 20px 5%;}
 
-.logo{padding-left:80px; padding-top: 40px;}
+.logo{margin: auto;}
 #name{  font-family: 'Stalinist One', monospace; margin: 0px;}
 
 
 header{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
     text-align: center;
     background-color: #303f9f;
     color: whitesmoke;
@@ -34,7 +34,6 @@ header{
     padding-left: 20px;
 }
 
-.icon { margin-left: 40%;}
 
 .topnav { 
     display: none;
@@ -48,15 +47,14 @@ header{
     color: whitesmoke;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 0.8em;
     display: block;
 }
   
-.topnav a.icon {
-    right: 0px;
-    top: 0px;
+.icon {
+  margin: auto;
 }
-.topnav a:hover { background-color: #001970; }
+.icon img:hover { cursor: pointer; }
   
 
 nav a{
@@ -79,7 +77,9 @@ border: 1px solid whitesmoke;
 }
 #grid p { padding: 10px; }
 
-
+.icon2 {
+    margin-left: 40%;
+  }
 #hero{
     grid-column: 2/3;
     grid-row: 1/3;
