@@ -100,7 +100,7 @@ border: 1px solid whitesmoke;
 }
 
 #hero-msg{
-    color: black;
+    color: blue;
     padding: 5px;
     grid-column: 1/3;
     grid-row: 1/2;
