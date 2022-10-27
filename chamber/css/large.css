@@ -90,7 +90,7 @@ border: 1px solid whitesmoke;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-#hero-img{
+.hero-img{
     grid-column: 1/4;
     grid-row: 1/4;
     width: 100%;
