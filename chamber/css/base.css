@@ -4,6 +4,18 @@
         font-size: 0.7em;
     }
     .logo { padding-left: 5%;}
+
+    #smedia {
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .today{
+        font-size: 0.7em;
+        grid-column: 1/5;
+        margin: 10px;
+        padding: 5px;
+    }
     
     #grid{ grid-template-columns: 1fr; }
     
@@ -21,13 +33,13 @@
     .joinbutton{
         margin: 10px 0px;
         padding: 0px;
+        margin-bottom: 20px;
     
     }
     .joinbutton a {
-        background-color: darkgoldenrod;
         padding: 5px;
         border-radius: 10px;
-        color: whitesmoke; text-decoration: none; font-weight: bold;}
+    }
 
     #event{
         grid-row: 2/3;
