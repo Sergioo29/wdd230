@@ -1,0 +1,72 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+
+table{
+    margin: auto;
+    box-shadow: 5px 10px 20px rgb(138, 138, 138);
+    width: 30%;
+    border-collapse: collapse;
+    
+}
+
+
+
+caption{
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: black;
+    padding: 10px;
+    background-color: rgb(56, 157, 170);
+    
+
+    box-shadow: 5px 10px 20px rgb(138, 138, 138);
+}
+
+thead{
+    background-color: rgb(42, 109, 148);
+}
+
+th, td{
+    padding: 10px 5px;
+}
+
+tbody{
+    color: black;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(229, 255, 238);
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(241, 230, 237);
+}
+
+#diff{
+    background-color: rgb(42, 109, 148);
+    color: whitesmoke;
+}
+
+#bfriday{
+    font-style: italic;
+    
+}
+
+tfoot{
+    font-weight: bolder;
+    font-size: .8em;
+    color: black;
+    padding: 10px;
+    background-color: rgb(56, 157, 170);
+    padding-bottom: 20px;
+
+    
+}
+
