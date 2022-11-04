@@ -127,6 +127,16 @@ border: 1px solid whitesmoke;
 }
 .joinbutton a:hover{ background-color: whitesmoke; color: black;}
 
+.gallery{
+    transition: transform .3s;
+
+}
+.gallery:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+
 #join{
     grid-column: 1/2;
     grid-row: 3/4;

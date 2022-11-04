@@ -10,6 +10,15 @@
         padding: 5%;
     }
 
+    .gallery{
+        transition: none;
+    
+    }
+    .gallery:hover{
+        opacity: 1;
+        transform: scale(1);
+    }
+
     .today{
         font-size: 0.7em;
         grid-column: 1/5;
