@@ -129,11 +129,17 @@ border: 1px solid whitesmoke;
 
 .gallery{
     transition: transform .3s;
+    margin: 15px;
+    border: 5px solid #303f9f;
 
 }
 .gallery:hover{
     opacity: .6;
     transform: scale(1.1);
+}
+
+#gallerygrid{
+    text-align: center;
 }
 
 
@@ -189,5 +195,4 @@ footer .logo { width: 50%; padding-left: 150px;}
 footer a { color: whitesmoke;}
 #footername { text-align: left; padding-left: 20px; font-size: 1.1em;}
 #copyright{ grid-column: 1/4;}
-
 

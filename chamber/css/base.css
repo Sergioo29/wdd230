@@ -12,6 +12,8 @@
 
     .gallery{
         transition: none;
+        width: 75%;
+        height: 75%;
     
     }
     .gallery:hover{
