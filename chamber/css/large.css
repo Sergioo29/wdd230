@@ -9,7 +9,11 @@ body{
 main { margin: 20px 5%;}
 
 .logo{margin: auto;}
-#name{  font-family: 'Stalinist One', monospace; margin: 0px;}
+#name{ 
+    font-family: 'Stalinist One', monospace; 
+    margin: 0px;
+    text-align: left;
+    font-size: 1.2em;}
 
 
 header{

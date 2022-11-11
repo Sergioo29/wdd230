@@ -46,5 +46,6 @@
     #spotlight3{ display: none;}
 
     footer{ font-size: 0.99em; }
+    footer .logo { width: 50%; padding: 0px;}
 
 }

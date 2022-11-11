@@ -1,13 +1,18 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
 
     #name{
         font-size: 0.7em;
+        text-align: center;
     }
     .logo { padding-left: 5%;}
 
     #smedia {
         flex-direction: column;
         padding: 5%;
+    }
+    
+    .topnav{
+        font-size: 0.8em;
     }
 
     .gallery{
