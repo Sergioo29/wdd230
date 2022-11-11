@@ -177,7 +177,7 @@ caption{
     background-color:  #303f9f;    
 }
 
-thead{
+#thead{
     background-color: #001970;
 }
 
@@ -187,7 +187,6 @@ th, td{
 
 tbody{
     color: whitesmoke;
-
 }
 
 tbody tr:nth-child(even){
