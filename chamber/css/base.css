@@ -97,7 +97,9 @@
     margin: 10px;
     }
 
-
+    #membershipDetails{
+        display: block;
+    }
 
     footer{
         display: flex;

@@ -145,6 +145,9 @@ border: 1px solid whitesmoke;
 }
 .submitbutton:hover{ background-color: whitesmoke; color: black; cursor: pointer;}
 
+#membershipDetails{
+    display: flex;
+}
 
 .gallery{
     transition: transform .3s;
@@ -157,7 +160,7 @@ border: 1px solid whitesmoke;
     transform: scale(1.1);
 }
 
-#gallerygrid{
+#gallerygrid, #memberDetailsHeading{
     text-align: center;
 }
 
