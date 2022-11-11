@@ -82,12 +82,9 @@
 
 
     #formGrid{
-        display: grid;
-        grid-template-columns: 1fr;
+        display: block;
         text-align: center;
-        margin: 10px;
     }
-    
     
     label{
         display: block;
@@ -96,15 +93,18 @@
     label input{ padding: 10px; margin: 10px; }
     
     
-    .radiolist, .businessDecript, #formGrid h3{
+    .radiolist, .businessDecript{
     text-align: left;
     margin-left: 100px;
     margin: 10px;
     }
 
     table{
-        font-size: 0.9em;
+        font-size: 0.8em;
+        margin: 0px;
     }
+
+
 
     footer{
         display: flex;
