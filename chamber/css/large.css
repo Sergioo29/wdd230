@@ -164,6 +164,40 @@ border: 1px solid whitesmoke;
     text-align: center;
 }
 
+table{
+    margin: auto;
+    width: 30%;    
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.1em;
+    color: whitesmoke;
+    padding: 10px;
+    background-color:  #303f9f;    
+}
+
+thead{
+    background-color: #001970;
+}
+
+th, td{
+    padding: 10px 5px;
+}
+
+tbody{
+    color: whitesmoke;
+
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(55, 55, 55);
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(39, 39, 39);
+}
+
 
 #join{
     grid-column: 1/2;
