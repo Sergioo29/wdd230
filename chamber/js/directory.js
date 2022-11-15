@@ -1,31 +1,27 @@
-function displayCards(card){
+function displayCard(card){
     let cardview = document.querySelector("#cardview");
-    let card = document.createElement("div");
-    card.innerHTML = `
-    <img src="${card.imageURL}">
+    let cardIt = document.createElement("div");
+    cardIt.innerHTML = 
+      `<img src="${card.imageURL}">
+      <p>${card.name}</p>
+      <p>${card.street}</p>
+      <p>${card.phone}</p>
+      <p><a href="${card.website}">website</a></p>`;
     
-    
-    
-    
-    `
-    
-    
-    /* <p>Address</p>
-        <p>Phone</p>
-        <p>Website</p> */
-};
+}
 
-function displayList{
+function displayList(list){
+  let card = document.createElement("tr");
+  card.innerHTML=
+  `<td>${list.name}</td>
+   <td>${list.street}</td>
+   <td>${list.phone}</td>
+   <td><a href="${list.website}">website</a></td>`;
 
-};
+   document.querySelector ("#listview table").appendChild(card);
+}
 
-
-
-
-
-
-const requestURL = './data/business.json';
-
+const requestURL = './js/data.json';
 
 fetch(requestURL)
   .then(function (response) {
@@ -33,8 +29,8 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const bizlist = jsonObject['businesses'];
-    bizlist.forEach(displayCards);
+    const bizlist = jsonObject['companies'];
+    bizlist.forEach(displayCard);
     bizlist.forEach(displayList);
 
   });

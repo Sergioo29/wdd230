@@ -1,0 +1,100 @@
+{
+    "companies": [
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 1,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 2,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 3,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 4,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 5,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 6,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 7,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 8,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 9,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 10,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 11,
+        "imageurl": "images/cash.png"
+      },
+      {
+        "name": "Company",
+        "street": "123 Address",
+        "phone": "208 123 4567",
+        "website": "website.com",
+        "order": 12,
+        "imageurl": "images/cash.png"
+      }         
+    ]
+  }
