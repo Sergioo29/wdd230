@@ -104,6 +104,9 @@
         margin: 0px;
     }
 
+    .cards{
+        grid-template-columns: 1fr;
+    }
 
 
     footer{

@@ -1,100 +1,100 @@
 {
     "companies": [
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Amazon",
+        "street": "410 Terry Ave N, Seattle 98109, WA",
+        "phone": "877 773 1059",
+        "website": "https://amazon.com",
         "order": 1,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/amazon.jpg"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Apple",
+        "street": "One Apple Park Way, Cupertino, CA",
+        "phone": "800 275 2273",
+        "website": "https://apple.com",
         "order": 2,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/apple.jpg"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Blizzard",
+        "street": "16215 Alton Parkway Irvine, CA",
+        "phone": "800 592 5499",
+        "website": "https://blizzard.com",
         "order": 3,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/blizzard.jpg"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Chick Fill'A",
+        "street": "525 S Center St, Rexburg, ID",
+        "phone": "866 232 2040",
+        "website": "https://www.chick-fil-a.com/",
         "order": 4,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/chick.png"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "McDonalds",
+        "street": "850 University Blvd, Rexburg, ID",
+        "phone": "208 356 6141",
+        "website": "https://mcdonalds.com",
         "order": 5,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/donalds.png"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "EA Sports",
+        "street": "209 Redwood Shores Parkway, Redwood City, CA",
+        "phone": "650 628 1393",
+        "website": "https://ea.com/sports",
         "order": 6,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/easports.jpg"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Jack in the Box",
+        "street": "461 N 2nd E, Rexburg, ID",
+        "phone": "208 656 9284",
+        "website": "https://www.jackinthebox.com/",
         "order": 7,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/jack.png"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "LDS Church",
+        "street": "50 East North Temple St. Salt Lake City, UT",
+        "phone": "855 537 4357",
+        "website": "https://churchofjesuschrist.org",
         "order": 8,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/lds.png"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Nintendo",
+        "street": "4600 150th Ave NE, Redmond, WA",
+        "phone": "800 255 3700",
+        "website": "https://nintendo.com",
         "order": 9,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/nintendo.png"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Sega",
+        "street": "6400 Oak Canyon, Suite 100,. Irvine, CA",
+        "phone": "866 226 8092",
+        "website": "https://sega.com",
         "order": 10,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/sega.png"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Square Enix",
+        "street": "999 North Pacific Coast Highway Third Floor El Segundo, CA",
+        "phone": "800 715 2450",
+        "website": "https://square-enix-games.com",
         "order": 11,
-        "imageurl": "images/cash.png"
+        "imageurl": "images/squareenix.jpg"
       },
       {
-        "name": "Company",
-        "street": "123 Address",
-        "phone": "208 123 4567",
-        "website": "website.com",
+        "name": "Taco Bell",
+        "street": "22 W Main St, Rexburg, ID",
+        "phone": "208 656 0220",
+        "website": "https://tacobell.com",
         "order": 12,
-        "imageurl": "images/cash.png"
-      }         
+        "imageurl": "images/taco.png"
+      }
     ]
   }
