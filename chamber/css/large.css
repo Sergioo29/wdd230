@@ -283,6 +283,10 @@ tbody tr:nth-child(odd){
     box-shadow: 0px 0px 15px black;
 }
 
+.cards img{
+    padding: 20px;
+}
+
 
 .cards section{
     background-color: black;
