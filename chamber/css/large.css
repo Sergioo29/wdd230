@@ -239,6 +239,14 @@ table{
     font-size: 0.7em;
 }
 
+#listview table{
+    margin: 5px 5px 5px 50px;
+    width: 90%;
+    font-size: 0.9em;
+}
+
+
+
 caption{
     font-weight: bold;
     font-size: 1.1em;

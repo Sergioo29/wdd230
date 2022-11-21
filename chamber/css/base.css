@@ -112,6 +112,14 @@
         margin: 0px;
     }
 
+    
+#listview {margin: 0px;}
+    #listview table{
+        margin: 0px;
+        width: 80%;
+        font-size: 0.6em;
+    }
+
     .cards{
         grid-template-columns: 1fr;
     }
