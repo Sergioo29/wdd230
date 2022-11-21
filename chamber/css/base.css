@@ -15,16 +15,24 @@
         font-size: 0.8em;
     }
 
+    #gallerygrid{
+        grid-template-columns: 1fr;
+    }
+
+    picture{ text-align: center; margin: 100px 0px 0px 0px;}
     .gallery{
         transition: none;
         width: 75%;
-        height: 75%;
     
     }
     .gallery:hover{
-        opacity: 1;
-        transform: scale(1);
+        transform: none;
+        border: 5px solid #303f9f
     }
+    .gallerydesc{ padding: 0px 50px; text-align: center;}
+
+    #lvisited { text-align: center; margin: 50px;}
+
 
     .today{
         font-size: 0.7em;
