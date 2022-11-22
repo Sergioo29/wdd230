@@ -16,7 +16,7 @@ function showWeather(obj){
         windchillmsg = chill + " ° F";
     };
 
-    tempobj.textContent = temp;
+    tempobj.textContent = Math.round(temp);
     windspeedobj.textContent = windspeed;
     windchilldobj.innerHTML = windchillmsg;
     weathericon.setAttribute ("src", iconURL);
