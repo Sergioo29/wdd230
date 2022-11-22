@@ -20,11 +20,11 @@ function showWeather(obj){
     windspeedobj.textContent = windspeed;
     windchilldobj.innerHTML = windchillmsg;
     weathericon.setAttribute ("src", iconURL);
-    weatherdesc = obj.weather[0].main;
+    weatherdesc.textContent = obj.weather[0].description;
 }
 
-const LAT = "64.8378";
-const LON = "-147.7164";
+const LAT = "43.826";
+const LON = "-111.7897";
 const APIKEY = "87a2274e37afb2733385877c040c7a2d";
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?lat=${LAT}&lon=${LON}&appid=${APIKEY}&units=imperial`;
 
