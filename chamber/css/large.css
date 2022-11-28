@@ -8,6 +8,7 @@ body{
 
 main { margin: 5% 5%;}
 #directoryMain { margin-bottom: 8%;}
+#joinMain { margin-bottom: 8%;}
 
 header{
     display: grid;
