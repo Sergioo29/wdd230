@@ -6,7 +6,8 @@ body{
     background-color: black;
 }
 
-main { margin: 20px 5%;}
+main { margin: 5% 5%;}
+#directoryMain { margin-bottom: 8%;}
 
 header{
     display: grid;
