@@ -158,6 +158,11 @@
     .message textarea{
         padding: 30px;
     }
+
+    #meetDirectors{
+        text-align: center;
+    }
+    
     footer{
         display: flex;
         flex-direction: column;
