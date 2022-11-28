@@ -107,6 +107,10 @@
     }
     
     footer{ font-size: 0.99em; }
-    footer .logo { width: 60%; padding: 0px;}
+    footer .logo { 
+        width: 60%; 
+        padding: 0px;
+        margin-top: 3%;
+    }
 
 }
