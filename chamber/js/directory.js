@@ -27,6 +27,7 @@ function displayCard(card){
 
   let img = document.createElement('img');
   img.setAttribute('src', card.imageurl);
+  img.setAttribute('alt', "Brand Logo");
 
   let h2 = document.createElement('h2');    
   h2.textContent = `${card.name}`;
