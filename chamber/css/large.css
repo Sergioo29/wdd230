@@ -286,6 +286,12 @@ tbody tr:nth-child(odd){
     background-color: rgb(39, 39, 39);
 }
 
+
+#bizheader{
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+
 #listview{
     display: none;
 }
