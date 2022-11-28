@@ -80,9 +80,8 @@
     .spotlights{ width: 100%;}
     #spotlight3{ display: none;}
 
-
-    table{
-        font-size: 0.5em;
+    #formGrid{
+        display: block;
     }
 
 
