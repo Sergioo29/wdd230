@@ -146,7 +146,18 @@
         grid-template-columns: 1fr;
     }
 
+    #directorPortraits{
+        font-size: 0.8em;
+    }
+    
+    #directorPortraits img{
+        width: 50%;
+        border: 5px solid #001970;
+    }
 
+    .message textarea{
+        padding: 30px;
+    }
     footer{
         display: flex;
         flex-direction: column;

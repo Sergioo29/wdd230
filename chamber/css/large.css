@@ -347,7 +347,12 @@ img {
 }
 
 .message{
-    text-align: left;
+    text-align: center;
+    margin: 10px;
+}
+
+.message textarea{
+    padding-bottom: 30px;
 }
 
 #directorPortraits{
