@@ -209,6 +209,7 @@ picture{ text-align: right; margin: 30px;}
     margin: 10px;
 }
 
+a { color: whitesmoke;}
 
 #formGrid{
     display: grid;
@@ -326,7 +327,35 @@ img {
     transition: filter 0.5s;
 }
 
-a { color: whitesmoke;}
+
+#contactGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contactType{
+    display: flex;
+    gap: 20px;
+}
+
+.message{
+    text-align: left;
+}
+
+#directorPortraits{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+}
+
+#directorPortraits img{
+    width: 100%;
+    border: 10px solid #001970;
+}
+.portrait{
+    display: block;
+}
+
 
 footer{
     display: grid;

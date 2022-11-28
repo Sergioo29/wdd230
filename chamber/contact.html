@@ -53,16 +53,56 @@
 </div>
 
     <h1 class="pageName">Contact Us</h1>
+<main id="contactGrid">
+    <section>
+    <div id="formGrid">
+        <form action="thankyou.html" method="GET">
+            <label>Name*:<input id="fname" type="text" name="fname" required></label>
+            <label>Email*:<input type="email" name="email" placeholder="example@mail.com" required></label>
+            <label>Cell Phone*:<input type="tel" name="cellphone" required></label>
 
-    <p>Tel: (208) 302 2308</p>
-    <br>
-    <p>Address: 325 South 3rd East, Rexburg, Idaho 83440</p>
+            <label class="message">Message*:<br><textarea name="message" cols="40" rows="5" required></textarea></label>
+                <fieldset id="contactType">
+                 <legend>How do you want to be contacted?</legend>
+                 <label class="checkboxes"><input  type="checkbox" name="contacttype" value="nonprofit">Text Message</label>
+                 <label class="checkboxes"><input  type="checkbox" name="contacttype" value="nonprofit">Call</label>
+                 <label class="checkboxes"><input  type="checkbox" name="contacttype" value="nonprofit">Email</label>
+                </fieldset>
+    
+                <input class="submitbutton" type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <section>
+        <h2>Meet our directors:</h2>
+        <div id="directorPortraits">
+            <div class="portrait">
+                <img src="images/director1.png" alt="Director Sergio I">
+                <h3>Sergio Silva</h3>
+                <p>Vice Director</p>
+            </div>
+            <div class="portrait">
+                <img src="images/director2.png" alt="Director Sergio II">
+                <h3>Sergio Mundrungo</h3>
+                <p>Lead Director</p>
+            </div>
+            <div class="portrait">
+                <img src="images/director3.png" alt="Director Andre">
+                <h3>Andre Storm</h3>
+                <p>2nd Vice Director</p>
+            </div>
+        </div>
+    </section>
+
+
+</main>
+    
 
     
 </body>
 
 <footer>
-    <img class="logo" src="images/logor.png" alt="Black Chamber logo">
+    <img class="logo" src="images/logo.webp" alt="Black Chamber logo">
     <p id="footername"><b>Black Chamber of commerce</b><br> 333 Dark Avenue, Sim City 999</p>
     <p>contactus@blackchamber.org<br> +1 (801) 6969-9696 <br> <a href="https://www.google.com/maps/@-22.9519289,-43.2104891,2a,75y,75.73h,79.47t/data=!3m7!1e1!3m5!1sZ25DaoC5z-C_5FetgvJZfg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DZ25DaoC5z-C_5FetgvJZfg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D46.05953%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" target="_blank">📍Location Map</a></p>
     <p id="copyright"> &copy; <span id="year"></span> | Black Chamber | Sergio Silva | WDD 230 Project | <span id="time"> Last Modification: <span id="date"></span></span></p>
