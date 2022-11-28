@@ -15,7 +15,6 @@
     }
 
     #hambLinks{
-        display: flex;
         flex-direction: column;
         background-color: #303f9f;
     }
