@@ -90,6 +90,11 @@
 
     #formGrid{
         display: block;
+        margin-right: 30%;
+    }
+
+    label{
+        font-size: 0.8em;
     }
 
 
