@@ -178,6 +178,10 @@ picture{ text-align: right; margin: 30px;}
 .gallery:hover{ transform: scale(1.05); border: 5px solid yellow; cursor: pointer;}
 .gallerydesc{ padding-right: 100px;}
 
+#lvisited{
+    text-align: center;
+    font-weight: bold;
+}
 #join{
     grid-column: 1/2;
     grid-row: 3/4;
