@@ -5,6 +5,12 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+    #directoryMain{
+        margin-top: 15%;
+    }
+    #joinMain{
+        margin-bottom: 25%;
+    }
 
     header{
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -162,7 +168,11 @@
     #meetDirectors{
         text-align: center;
     }
-    
+
+    #directorPortraits{
+        margin-bottom: 20%;
+    }
+
     footer{
         display: flex;
         flex-direction: column;

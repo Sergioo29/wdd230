@@ -1,6 +1,14 @@
 @media screen and (max-width: 1200px) {
     
     main{ margin: 10px 3%;}
+    #directoryMain{
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
+    #joinMain{
+        margin-top: 7%;
+        margin-bottom: 15%;
+    }
 
     header{
         grid-template-columns: 1fr 1fr 2fr 1fr;
@@ -97,6 +105,9 @@
         display: block;
     }
 
+    #directorPortraits{
+        margin-bottom: 15%;
+    }
     #directorPortraits img{
         width: 75%;
         border: 8px solid #001970;
