@@ -10,11 +10,11 @@ document.querySelector(".today").innerHTML = `${fulldate}`;
 
 
 function hambButton() {
-    var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
+    var x = document.getElementById("hambLinks");
+    if (x.style.display === "flex") {
       x.style.display = "none";
     } else {
-      x.style.display = "block";
+      x.style.display = "flex";
     }
   }
 

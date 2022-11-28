@@ -8,7 +8,6 @@
 
     <meta name="description" content="Chamber of Commerce Project from Sergio Silva in WDD 230: Web Frontend Development at BYUI" />
 
-  
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/large.css">
@@ -22,18 +21,9 @@
 
     <header>
 
-        <div class="topnav">
-            <div id="myLinks">
-            <a href="index.html">Home</a>
-            <a href="discover.html">Discover</a>
-            <a href="directory.html">Directory</a>
-            <a href="join.html">Join</a>     
-            <a href="contact.html">Contact</a>
-            </div>
-            <a class="icon" onclick="hambButton()">
+            <a id="hambIcon" onclick="hambButton()">
               <img src="images/hamburguer.png" alt="hamburguer icon">
             </a>
-          </div>
           
         <img class="logo" src="images/logo.webp" alt="Black Chamber logo">
         <h1 id="name">Black Chamber</h1>
@@ -47,34 +37,39 @@
         </nav>
 
         <div id="smedia">
-            <a href="https://facebook.com" target="_blank"><img src="images/facebook2.png" alt="Facebook logo"></a>
-            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin2.png" alt="LinkedIn logo"></a>
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png" alt="Facebook logo"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn logo"></a>
         </div>
 
         <div class="today"></div>
     </header>
-    
+
+    <div id="hambLinks">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html">Join</a>     
+        <a href="contact.html">Contact</a>
+    </div>
+
     <main>
     
         <div id="grid">
 
-            <div id="event"><h2 class="heading">Event</h2>
+            <div id="event">
+                <h2 class="heading">Event</h2>
                 <p id="todaysevent"><b>Small Business Kickout</b><br>
                     Our first event of the month is for you business administrators! Come gather with us this next week and share your ideas.
                     We will be hearing from specials hosts of companies such as Coca Coca, Dr Chilli, and Mt Stew. Refreshments will be served.
                 </div>
 
-                <div id="hero">
-                    
+                <div id="hero">     
                     <picture class="hero-imgbox">
-                        <source  media="(min-width: 751px) and (max-width: 1499px)" srcset="images/medium.jpg" />
-                        <source  media="(min-width: 1500px)" srcset="images/large.jpg" />
+                        <source  media="(min-width: 800px) and (max-width: 1199px)" srcset="images/medium.jpg" />
+                        <source  media="(min-width: 1200px)" srcset="images/large.jpg" />
                         <img  class="hero-img" src="images/small.jpg" alt="Hero image" />
-                    </picture>
-                
-                    <div id="hero-msg">
-                        <h2>A chamber of commerce made for Rexburg citizens</h2>
-                    </div>
+                    </picture>          
+                    <h2 id="hero-msg">A chamber of commerce made for Rexburg citizens</h2>
                     <div id='herobutton' class='joinbutton'>
                             <a href="./join.html">Get Started</a>
                     </div>
@@ -83,7 +78,7 @@
             <div id="spotlight">
                     <div class="spotlights">
                     <h3 class="heading">Sell Something</h3>
-                    <img class="icon2" src="images/cash.png" alt="money icon">
+                    <img class="icon" src="images/cash.png" alt="money icon">
                     <p>
                         This chamber of commerce will grant you the space to put your items on sale without worring about
                         giving sensitive information. We only ask you the basics so you can get things done.
@@ -92,14 +87,14 @@
                     </div>
                     <div class="spotlights">
                         <h3 class="heading">Products or Services Near You</h3>
-                        <img class="icon2" src="images/buy.png" alt="shopping icon">
+                        <img class="icon" src="images/buy.png" alt="shopping icon">
                         <p>
                             Search for services from fellow students or Rexburg citizens near you with a quick search.
                         </p>
                     </div>
                     <div id="spotlight3" class="spotlights">
                         <h3 class="heading">Get Help For Your Intepreneurship</h3>
-                        <img class="icon2" src="images/help.png" alt="get help icon">
+                        <img class="icon" src="images/help.png" alt="get help icon">
                         <p>
                             Safely share your ideas. You can choose which help you are seeking, being it a fund raising, creating a team, or simply asking for ideas and opinions. You choose, 
                             we share!
@@ -107,39 +102,44 @@
                     </div>
             </div>
 
-            <div id="weather"><h3 class="heading">Weather</h3>              
-            <div>
-                <img id="weathericon" src="images/cloud.png" alt="Weather Icon">
+            <div id="weather">
+                    <h3 class="heading">Weather</h3>              
+                <div>
+                    <img id="weathericon" src="images/cloud.png" alt="Weather Icon">
                     <h2><span id="temperature"></span> &deg; F</h2> 
-            </div>
-            <h2 id="weatherdesc"></h2>
-            <hr>
-            <p>Wind Speed: <span id="windspeed"></span> mph</p>
-            <p>Wind Chill: <span id="windchill"></span></p>
+                </div>
+                <h2 id="weatherdesc"></h2>
+                <hr>
+                <p>Wind Speed: <span id="windspeed"></span> mph</p>
+                <p>Wind Chill: <span id="windchill"></span></p>
             </div>
 
             <div id="join">
-                <div class="joinbutton"><a href="./join.html">Join Now</a></div>
-                Start today to get the most out of our chamber of commerce. As a member you will be able to enjoy all
-                that we have to offer.
+                <div class="joinbutton">
+                    <a href="./join.html">Join Now</a>
+                </div>
+                <p>Start today to get the most out of our chamber of commerce. As a member you will be able to enjoy all
+                that we have to offer.</p>
             </div>
 
-            <div id="news"><h3 class="heading">News Release</h3>
-            <p>Now we are expanding our services to Idaho Falls! Because of that, you may see a little bit of unstability in our site for
-                the next few weeks. We apologize for any incoveniences it may cause, and we guarantee that we are working hard to get
-                the site back to normal as soon as possible.
-            </p>
+            <div id="news">
+                <h3 class="heading">News Release</h3>
+                <p>Now we are expanding our services to Idaho Falls! Because of that, you may see a little bit of unstability in our site for
+                    the next few weeks. We apologize for any incoveniences this may cause, and we guarantee that we are working hard to get
+                    the site back to normal as soon as possible.
+                </p>
             </div>
         </div>
+
     <p>Weather updates provided by <a href="https://home.openweathermap.org">Open Weather Map</a></p>
     <p>Icons provided by <a href="https://icons8.com">Icons 8</a></p>
     </main>
     
 <footer>
-    <img class="logo" src="images/logor.png" alt="Black Chamber logo">
-    <p id="footername"><b>Black Chamber of commerce</b><br> 333 Dark Avenue, Sim City 999</p>
-    <p>contactus@blackchamber.org<br> +1 (801) 6969-9696 <br> <a href="https://www.google.com/maps/@-22.9519289,-43.2104891,2a,75y,75.73h,79.47t/data=!3m7!1e1!3m5!1sZ25DaoC5z-C_5FetgvJZfg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DZ25DaoC5z-C_5FetgvJZfg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D46.05953%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" target="_blank">📍Location Map</a></p>
-    <p id="copyright"> &copy; <span id="year"></span> | Black Chamber | Sergio Silva | WDD 230 Project | <span id="time"> Last Modification: <span id="date"></span></span></p>
+    <img class="logo" src="images/logo.webp" alt="Black Chamber logo">
+    <p id="footername"><b>Black Chamber of commerce</b><br> 238 Dark Avenue, Rexburg ID</p>
+    <p>contactus@blackchamber.org<br> +1 (801) 2369-9696 <br> <a href="https://www.google.com/maps/@-22.9519289,-43.2104891,2a,75y,75.73h,79.47t/data=!3m7!1e1!3m5!1sZ25DaoC5z-C_5FetgvJZfg!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fpanoid%3DZ25DaoC5z-C_5FetgvJZfg%26cb_client%3Dmaps_sv.tactile.gps%26w%3D203%26h%3D100%26yaw%3D46.05953%26pitch%3D0%26thumbfov%3D100!7i13312!8i6656" target="_blank">📍Location Map</a></p>
+    <p id="copyright"> &copy; <span id="year"></span> | Black Chamber | Sergio Silva | WDD 230 | <span id="time"> Last Modified: <span id="date"></span></span></p>
 </footer>
 
 <script src="js/index.js"></script>

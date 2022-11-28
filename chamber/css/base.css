@@ -1,17 +1,43 @@
 @media screen and (max-width: 800px) {
+    
+    main{ 
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    header{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 
     #name{
         font-size: 0.7em;
         text-align: center;
     }
-    .logo { padding-left: 5%;}
+    header .logo {
+        width: 70%;
+    }
 
     #smedia {
         flex-direction: column;
-        padding: 5%;
+        gap: 10px;
+    }
+
+    #smedia img{
+        width: 100%;
     }
     
-    .topnav{
+    #hambLinks{
+        font-size: 0.8em;
+    }
+
+    .today{
+        font-size: 0.7em;
+        margin: 0px;
+        padding: 5px;
+    }
+
+    #grid{
         font-size: 0.8em;
     }
 
@@ -32,18 +58,8 @@
     .gallerydesc{ padding: 0px 50px; text-align: center;}
 
     #lvisited { text-align: center; margin: 50px;}
-
-
-    .today{
-        font-size: 0.7em;
-        grid-column: 1/5;
-        margin: 10px;
-        padding: 5px;
-    }
     
-    #grid{ grid-template-columns: 1fr; }
-    
-    main{ margin: 3% 5px;}
+    #grid{ grid-template-columns: 1fr;}
     
     #hero{
         grid-column: 1/2;
@@ -51,7 +67,7 @@
     }
 
     #hero-msg{
-        font-size: 0.7em;
+        font-size: 1.2em;
     }
 
     .joinbutton{
@@ -87,7 +103,6 @@
     #join{
         display: none;
     }
-
 
     #formGrid{
         display: block;
