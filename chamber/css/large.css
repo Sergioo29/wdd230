@@ -408,7 +408,7 @@ footer .logo {
     width: 50%; 
     padding-left: 50%;;
 }
-footer a { color: whitesmoke;}
+footer a { color: whitesmoke; font-weight: bold;}
 #footername { text-align: left; padding-left: 20px; font-size: 1.1em;}
 #copyright{ grid-column: 1/4;}
 
