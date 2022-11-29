@@ -139,8 +139,8 @@
 
     table{
         font-size: 0.6em;
-        width: 22%;
-        margin-left: 7%;
+        width: 21%;
+        margin-left: 6%;
     }
 
     
@@ -167,7 +167,12 @@
         padding: 30px;
     }
 
-
+    .checkboxes{
+        display: block;
+        text-align: left;
+margin-left: 100px;
+margin: 10px;
+    }
     #meetDirectors{
         text-align: center;
     }
