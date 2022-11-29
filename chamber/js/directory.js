@@ -59,7 +59,7 @@ function displayList(list){
    document.querySelector ("#listview table").appendChild(card);
 }
 
-const requestURL = './js/data.json';
+const requestURL = './data/data.json';
 
 fetch(requestURL)
   .then(function (response) {
