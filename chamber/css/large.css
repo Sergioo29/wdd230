@@ -54,6 +54,10 @@ nav a:hover { background-color:  #001970;}
 #smedia img{
     width: 130%;
 }
+#smedia img:hover{
+    border: 2px solid yellow;
+    border-radius: 50px;
+}
 
 .today{
     grid-column: 1/5;

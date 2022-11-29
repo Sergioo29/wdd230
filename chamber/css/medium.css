@@ -57,6 +57,10 @@
         
         width: 150%;
     }
+    #smedia img:hover{
+        border: none;
+        border-radius: 0px;
+    }
 
     nav{ 
         display: none;
