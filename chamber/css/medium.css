@@ -1,6 +1,9 @@
 @media screen and (max-width: 1200px) {
     
-    main{ margin: 10px 3%;}
+    main{
+        margin-top: 10%;
+        margin-bottom: 15%;
+    }
     #directoryMain{
         margin-top: 10%;
         margin-bottom: 15%;
