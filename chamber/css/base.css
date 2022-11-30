@@ -29,6 +29,10 @@
         gap: 10px;
     }
 
+    #smedia img:hover{
+        width: 100%;
+    }
+
     #smedia img{
         width: 100%;
     }

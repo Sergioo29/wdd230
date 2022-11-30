@@ -60,6 +60,7 @@
     #smedia img:hover{
         border: none;
         border-radius: 0px;
+        width: 150%;
     }
 
     nav{ 
