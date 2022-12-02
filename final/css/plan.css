@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+
+h2 {
+  color: orange;
+}
+
+a{
+  display: block;
+  margin: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+a:hover{ color: yellow;
+}
+
+tr{ color: whitesmoke;}
+  .colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: rgb(41, 27, 95);
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: #303f9f;
+  }
+  .secondary {
+    background-color: #001970;
+  }
+  .accent1 {
+    background-color: black;
+  }
+  .accent2{
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  #headingFont{ font-family: 'Stalinist One', monospace;}
+  .paragraphFont{ font-family: 'Noto Sans Mono';}
+  
+  #colored{
+    font-family: 'Noto Sans Mono';
+    background-color: #001970;
+    color: whitesmoke;
+    padding: 5px;}
+
