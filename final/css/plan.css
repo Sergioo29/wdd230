@@ -1,7 +1,12 @@
 body{
     background-color: black;
     color: whitesmoke;
+    margin: 0px 20%;
+    
+
 }
+
+img { width: 70%;}
 
 h2 {
   color: orange;
@@ -18,30 +23,30 @@ a:hover{ color: yellow;
 }
 
 tr{ color: whitesmoke;}
-  .colors {
-    width: 100%;
-    min-width: 350px;
-    margin: 30px auto;
+  #colors {
+    width: 75%;
+    margin: 50px;
     text-align: center;
   }
-  .colors th {
+  th {
     background-color: rgb(41, 27, 95);
   }
-  .colors td{
-    width: 25%;
-    height: 3em;
+  td{
+    padding: 40px;
   }
   .primary {
-    background-color: #303f9f;
+    background-color: #f8bbd0;
+    color: black;
   }
   .secondary {
-    background-color: #001970;
-  }
-  .accent1 {
     background-color: black;
   }
+  .accent1 {
+    background-color: #ffeeff;
+    color: black;
+  }
   .accent2{
-    background-color: whitesmoke;
+    background-color: #c48b9f;
     color: black;
   }
 
@@ -50,7 +55,7 @@ tr{ color: whitesmoke;}
   
   #colored{
     font-family: 'Noto Sans Mono';
-    background-color: #001970;
-    color: whitesmoke;
+    background-color: #c48b9f;
+    color: #ffeeff;
     padding: 5px;}
 
