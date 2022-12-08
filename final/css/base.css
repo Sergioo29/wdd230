@@ -1,0 +1,38 @@
+body{
+    background-color: #ffeeff;
+    margin: 0px;
+}
+
+main{
+    text-align: center;
+}
+
+header{
+    background-color: #c48b9f;  
+    display: flex;
+    justify-content: space-around;
+}
+
+#websiteName{
+    color: white;
+    text-shadow: 5px 1px 5px black;
+}
+
+nav{
+    background-color: #f8bbd0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+nav a:hover{
+    color: #ffeeff;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+footer{
+    background-color: #c48b9f;
+    text-align: center;
+}
