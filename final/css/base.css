@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Martel:wght@200;400;700;900&display=swap');
 
 /**** Main Tags **********************************/
 body{
     background-color: #ffeeff;
+    font-family: 'Martel', serif;
     margin: 0px;
 }
 
@@ -13,6 +15,7 @@ main{
 
 footer{
     background-color: #c48b9f;
+    font-family: 'Martel', serif;
     text-align: center;
 }
 
@@ -27,7 +30,9 @@ header{
 #websiteName{
     color: white;
     text-shadow: 5px 1px 5px black;
-    font-family: gelasio;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    
 }
 
 #headerButton{
@@ -71,6 +76,15 @@ nav a:hover{
 
 /*************** Stuff in the Page **********************/
 
+.pageName{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+#hero{
+    animation: ;
+}
+
 .imgButton{
     margin: 20px;
 }
@@ -91,7 +105,7 @@ nav a:hover{
 }
 
 
-/*************** Footer  **********************/
+/*************** Footer  ***********************************/
 #mapLink{
     font-weight: bold;
     text-decoration: none;
