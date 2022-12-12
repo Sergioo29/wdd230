@@ -16,8 +16,6 @@ function displayCard(card){
   let p2= document.createElement('p');
   p2.textContent = `Phone: ${card.phone}`;
 
-  
-
   cardIt.appendChild(img);
   cardIt.appendChild(h2);
   cardIt.appendChild(p1);
@@ -26,17 +24,7 @@ function displayCard(card){
   document.querySelector('div.cards').appendChild(cardIt);
 }
 
-function displayList(list){
-  let card = document.createElement("tr");
-  card.innerHTML=
-  `<td>${list.name}</td>
-   <td>${list.street}</td>
-   <td>${list.phone}</td>
-   <td><a href="${list.website}">website</a></td>`;
-
-   document.querySelector ("#listview table").appendChild(card);
-}
-
+// Read the JSON file and run the function above ----------------------------------------
 const requestURL = './data/data.json';
 
 fetch(requestURL)
@@ -45,8 +33,7 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
-    const bizlist = jsonObject['companies'];
-    bizlist.forEach(displayCard);
-    bizlist.forEach(displayList);
+    const templelist = jsonObject['temples'];
+    templelist.forEach(displayCard);
 
   });
