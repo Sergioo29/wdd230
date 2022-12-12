@@ -1,0 +1,48 @@
+{
+    "temples": [
+      {
+        "name": "Salt Lake",
+        "street": "410 Terry Ave N, Seattle 98109, WA",
+        "phone": "877 773 1059",
+        "email": "saltlaketemple@churchojesuschrist.com",
+        "services": "https://amazon.com",
+        "about": "https://amazon.com",
+        "schedule": "MON - Fri (10am - 5pm)",
+        "order": 1,
+        "imageurl": "images/saltlake.jpg"
+      },
+      {
+        "name": "San Diego, CA",
+        "street": "410 Terry Ave N, Seattle 98109, WA",
+        "phone": "877 773 1059",
+        "email": "sandiegotemple@churchojesuschrist.com",
+        "services": "https://amazon.com",
+        "about": "https://amazon.com",
+        "schedule": "MON - Fri (10am - 5pm)",
+        "order": 2,
+        "imageurl": "images/sandiego.jpg"
+      },
+      {
+        "name": "Portland, OR",
+        "street": "410 Terry Ave N, Seattle 98109, WA",
+        "phone": "877 773 1059",
+        "email": "portlandtemple@churchojesuschrist.com",
+        "services": "https://amazon.com",
+        "about": "https://amazon.com",
+        "schedule": "MON - Fri (10am - 5pm)",
+        "order": 3,
+        "imageurl": "images/portland.jpg"
+      },
+      {
+        "name": "Washington DC, WA",
+        "street": "410 Terry Ave N, Seattle 98109, WA",
+        "phone": "877 773 1059",
+        "email": "washingtondctemple@churchojesuschrist.com",
+        "services": "https://amazon.com",
+        "about": "https://amazon.com",
+        "schedule": "MON - Fri (10am - 5pm)",
+        "order": 4,
+        "imageurl": "images/washington.jpg"
+      }
+    ]
+  }
