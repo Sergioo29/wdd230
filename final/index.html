@@ -17,7 +17,10 @@
     <header>
         <a href="index.html"><img id="logo" src="images/logo.png"></a>
         <h1 id="websiteName">A Sweet Suite</h1>
-        <button id="headerButton" onclick="reservation.html">Make a Reservation</button>
+        
+        <form action="reservation.html" method="get">
+            <input id="headerButton" type="submit" value="Make a Reservation">
+        </form>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -29,6 +32,24 @@
 
     <main>
         <h2 id="hero">Get spiritual. Get confortable.</h2>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+             <img class="slideImg" src="images/bedroom1.jpg">
+             <div class="caption">Private and Married Bedrooms</div>
+            </div>
+  
+            <div class="mySlides fade">
+             <img class="slideImg" src="images/pool.jpg">
+             <div class="caption">Free Indoor Pool</div>
+            </div>
+  
+            <div class="mySlides fade">
+             <img class="slideImg" src="images/gym.jpg">
+             <div class="caption">Free Fit Gym</div>
+            </div> 
+        </div>
+        
 
         <a href="temple.html"><img class="imgButton" src="images/temple.png"></a>
 
@@ -58,6 +79,7 @@
     </footer>
 
     <script src="js/index.js"></script>
+    <script src="js/slideshow.js"></script>
 
 </body>
 </html>

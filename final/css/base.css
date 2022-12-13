@@ -74,19 +74,23 @@ nav a:hover{
     
 }
 
-/*************** Stuff in the Page **********************/
-
+/*************** Share Between Pages **********************/
 .pageName{
     font-family: 'Dancing Script', cursive;
     font-size: 2em;
 }
 
+
+/*************** Home Page **********************/
+
 #hero{
-    animation: ;
+    animation-name: textFade;
+    animation-duration: 2s;
 }
 
 .imgButton{
     margin: 20px;
+    width: 4%;
 }
 .imgButton:hover{
     opacity: 75%;
@@ -102,6 +106,53 @@ nav a:hover{
 #bodyButton:hover{
     background-color: white;
     cursor: pointer;
+}
+
+@keyframes textFade {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
+
+
+/************* Slideshow **********************************************/
+* {box-sizing:border-box }
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.slideImg{
+    border: 10px solid #c48b9f;
+    border-radius: 5px;
+}
+
+.caption {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 2px black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 
