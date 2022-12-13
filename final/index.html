@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Final Project for class WDD 230 - Sergio">
+        <meta name="description" content="Final Project for class WDD 230 - Sergio">
     <title>A Sweet Suite - Home</title>
 
     <link rel="stylesheet" href="css/base.css">    
@@ -13,52 +13,52 @@
 
 <body>
 
-    <div id="content">
-
-        <header>
-            <a id="logo_link" href="index.html"><img class="logo" src="images/logo.png" alt="Brand Logo"></a>
-            <nav>
-                <a href="index.html"> Home </a>
-                <a href="temples.html">Temples</a>
-                <a href="services.html">Services</a>
-                <a href="reservation.html">Reservation</a>
-            </nav>
-        </header>
+    <header>
+        <a id="logo_link" href="index.html"><img class="logo" src="images/logo.png" alt="Brand Logo"></a>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="temples.html">Temples</a>
+            <a href="services.html">Services</a>
+            <a href="reservation.html">Reservation</a>
+        </nav>
+    </header>
     
-        <div id="hero">
-            <div id="hero-box">
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                     <img class="hero-img slideImg" src="images/hero.jpg">
-                     <div class="caption">Private and Married Bedrooms</div>
-                    </div>
-          
-                    <div class="mySlides fade">
-                     <img class="hero-img slideImg" src="images/pool.jpg">
-                     <div class="caption">Free Indoor Pool</div>
-                    </div>
-          
-                    <div class="mySlides fade">
-                     <img class="hero-img slideImg" src="images/gym.jpg">
-                     <div class="caption">Free Fit Gym</div>
-                    </div> 
+    <div id="hero">
+        <div id="hero-box">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                 <img class="hero-img slideImg" src="images/hero.jpg">
+                 <div class="caption">Private and Married Bedrooms</div>
                 </div>
+      
+                <div class="mySlides fade">
+                 <img class="hero-img slideImg" src="images/pool.jpg">
+                 <div class="caption">Free Indoor Pool</div>
+                </div>
+      
+                <div class="mySlides fade">
+                 <img class="hero-img slideImg" src="images/gym.jpg">
+                 <div class="caption">Free Fit Gym</div>
+                </div> 
             </div>
-        
-            <section id="hero-msg">
-            <h1 class="home-title">A Sweet Suite</h1>
-            <h4>Get Confortable. Get Spiritual.</h4>
-                <div class='button-box'>
-                 <a class='book' href="reservation.html">Make a Reservation</a>
-                </div>
-            </section>
         </div>
+    
+        <section id="hero-msg">
+        <h1 class="home-title">A Sweet Suite</h1>
+        <h4>Get Confortable. Get Spiritual.</h4>
+            <div class='button-box'>
+             <a class='book' href="reservation.html">Make a Reservation</a>
+            </div>
+        </section>
+    </div>
+    
+    <main>
         
         <h2>There is no place like home. With that in mind, we build our lodges to be as closest as possible to a cozy
             and familiar place where you can say: "home sweet home."
         </h2>
 
-        <main class="home-grid">
+        <div class="home-grid">
 
             <section class="rivers-card">
                 <img class="card-img" src="images/sandiego.jpg" alt="Bedroom2">
@@ -75,34 +75,36 @@
 
             <div id="background"></div>
 
-            <img class="mountains" src="images/wedding2.jpg" alt="Missionaries">
+            <img class="mountains" src="images/wedding2.jpg" alt="Wedding">
             <section class="msg">
                 <h2>A Wedding Even More Special</h2>
                 <p>Feel free to conctact us even before booking, we can give you a tour and show you around. There is also a number of free services, such as the missionary work, do not
-            miss out this unique change to know more about the backstore of those beautiful temples.</p>
+                 miss out this unique change to know more about the backstore of those beautiful temples.</p>
+                <a class='reserveButton' href="reservation.html">Reserve Now</a>
             </section>
 
-        </main>
+        </div>  
+    
+    </main>
 
-        <footer>
-            <h3>A Sweeet Suite &copy; 2022 | Sergio Henrique | </h3>
-            <h3><a href="site-plan-rafting.html">Location</a></h3>
-            <h3><a>Time</a></h3>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="Facebook icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="Twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="Instagram icon">
-                </a>
-            </div>
-        </footer>
-    
-    </div>
-    
+    <footer>
+        <h3 id="footerName">A Sweeet Suite</h3>
+        <h3>&copy; 2022 | Sergio Henrique | </h3>
+        <h3><a href="site-plan-rafting.html">Location</a></h3>
+        <h3><a>Time</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram icon">
+            </a>
+        </div>
+    </footer>
+
     <script src="js/index.js"></script>
     <script src="js/slideshow.js"></script>
 </body>

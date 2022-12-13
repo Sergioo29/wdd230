@@ -11,48 +11,49 @@
 </head>
 
 <body>
-    <div id="content">
     
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="SRM_logo">
+        </a>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="temples.html">Temples</a>
+            <a href="services.html">Services</a>
+            <a href="reservation.html">Reservation</a>
+        </nav>       
+    </header>
+
 
     <main>
 
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo.png" alt="SRM_logo">
-            </a>
-            <nav>
-                <a href="index.html"> Home </a>
-                <a href="temples.html">Temples</a>
-                <a href="services.html">Services</a>
-                <a href="reservation.html">Reservation</a>
-            </nav>
-        </header>
-
-        <div id="hero">
-            <section id="hero-msg">
-            <h1 class="home-title">Services</h1>
-            </section>
-        </div>
+        <h1 id="pageName">Services</h1>
 
         <h2>Learn more about the services we offer as part of our lodging contracts.
             You can navigate trought the buttons below to see more information about our specialized services of 
             <a>Wedding Reception</a> and the <a>Temple Missionaries</a> service.
         </h2>
 
-        <div id="WeddingAndMissionariesGrid">
-            <section>
-                <h3>Wedding Reception</h3>
-                <a href="sreception.html"><img src="images/wedding1.jpeg"></a>
-                <button>Se More About</button>
+
+        <div class="home-grid">
+
+            <section class="rivers-card">
+                <a href="smissionary.html"><img  class="card-img" src="images/sisters.jpeg" alt="Missionary"></a>
+                <h2 class="servicesTitle">Temple Missionaries</h2>
+                <a class='servicesButton' href="smissionary.html">See More About</a>
             </section>
 
-            <section>
-                <h3>Temple Missionaries</h3>
-                <a href="smissionary.html"><img src="images/sisters.jpeg"></a>
-                <button>Se More About</button>
+            <section class="camping-card">
+                <a href="sreception.html"><img  class="card-img" src="images/wedding1.jpeg" alt="Wedding"></a>
+                <h2 class="servicesTitle">Wedding Reception</h2>
+                <a class='servicesButton' href="sreception.html">See More About</a>
             </section>
-        </div>
+        </div> 
+
+        <h2 id="servicesDescript">We also have services and amenities that come as part of the reservation contract. If you make your reservation
+            with us now, you will also have access to the following:</h2>
         <section id="servicesList">
+            <h2>Services</h2>
             <ul>
                 <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to
                     change to and from church clothes</li>
@@ -65,7 +66,8 @@
             </ul>
         </section>
 
-        <section id="amenitiessList">
+        <section id="amenitiesList">
+            <h2>Amenities</h2>
             <ul>
                 <li>Breakfast</li>
                 <li>Exercise/workout room</li>
@@ -76,6 +78,9 @@
                 <li>Family history consultation and family ordinance card service</li>
             </ul>
         </section>
+        
+        <br><br>
+        <a class='reserveButton' href="reservation.html">Reserve Now</a>
 
     </main>
 

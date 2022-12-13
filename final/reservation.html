@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Final Project Temple page for class WDD 230 - Sergio">
+    <meta name="description" content="Final Project Reservation page for class WDD 230 - Sergio">
 
-    <title>A Sweet Suite | Temples </title>
+    <title>A Sweet Suite | Reservation </title>
 
     <link rel="stylesheet" href="css/base.css">
     
@@ -15,34 +15,30 @@
 
 
 <body>
-
-    <div id="content">
-
-        <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo.png" alt="SRM_logo">
-            </a>
-            <nav>
-                <a href="index.html"> Home </a>
-                <a href="temples.html">Temples</a>
-                <a href="services.html">Services</a>
-                <a href="reservation.html">Reservation</a>
-            </nav>
-        </header>
+    <header>
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/logo.png" alt="SRM_logo">
+        </a>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="temples.html">Temples</a>
+            <a href="services.html">Services</a>
+            <a href="reservation.html">Reservation</a>
+        </nav>
+    </header>  
     
-        <div id="hero">
-            <div id="hero-box">
-                <img id="hero-img" src="images/wide.jpg" alt="a big river">
-            </div>
+    <main>
         
-            <section id="hero-msg">
-            <h1 class="home-title">Temples</h1>
-            </section>
-        </div>
-        
+           
+        <h1 id="pageName">Reservation</h1>
 
+        <h3> A nice and sweet place to call home while you enjoy your temple trip.</h3>
+        
         <div id="reservationGrid">
-          <form action="thankyou.html" method="GET">
+            
+            <img src="images/call.jpeg">
+           
+            <form action="thankyou.html" method="GET">
               <label>First Name*:<input id="fname" type="text" name="fname" required></label>
               <label>Last Name*:<input id="lname" type="text" name="lname" required></label>
               <label>Email*:<input type="email" name="email" placeholder="example@mail.com" required></label>
@@ -63,41 +59,29 @@
               </fieldset>
               <label>Additional Information:<br><textarea name="description" cols="50" rows="10"></textarea></label>
       
-              <input class="submitbutton" type="submit" value="Make the Reservation">
-          </form>
-          <br><br>
-          
-          
-          <h3>
-              A nice and sweet place to call home while you enjoy your temple trip.
-          </h3>
-
-          <img src="images/placeholder.png">
-      
-      </div>
+              <input class="submitButton" type="submit" value="Make the Reservation">
+            </form>
+        </div>
+    </main>
         
-        <br>
-        
-
-        <footer>
-            <h3>Sergio Raft Mania &copy; 2022 - Sergio Henrique</h3>
-            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
-            <h3><a href="contactus.html">Contact Us</a></h3>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
+    <footer>
+        <h3>Sergio Raft Mania &copy; 2022 - Sergio Henrique</h3>
+        <h3>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p>contactus@asweetsuite.org | +1 (801) 2369-9696 | 
+            <a id="mapLink" href="https://goo.gl/maps/8MEgmCgE6EqUaDb66" target="_blank">Location Map 📌</a></p>
+            <p id="lastLine"> &copy; <span id="year"></span> | A Sweet Suite | Sergio Silva | WDD 230 </p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
     
-    </div>
-
 </body>
-
 </html>
