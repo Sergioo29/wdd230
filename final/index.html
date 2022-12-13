@@ -1,85 +1,96 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en-us">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Final Project for class WDD 230 - Sergio">
-    <title>A Sweet Suite - Home</title>
+    <title>Sergio Raft Mania | Home </title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/base.css">
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    
 </head>
 
+
 <body>
-    <header>
-        <a href="index.html"><img id="logo" src="images/logo.png"></a>
-        <h1 id="websiteName">A Sweet Suite</h1>
-        
-        <form action="reservation.html" method="get">
-            <input id="headerButton" type="submit" value="Make a Reservation">
-        </form>
-    </header>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="temple.html">Temples</a>
-        <a href="service.html">Services</a>
-        <a href="reservation.html">Reservations</a>
-    </nav>
+
+    <div id="content">
+
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/logo.png" alt="SRM_logo">
+            </a>
+            <nav>
+                <a href="index.html"> Home </a>
+                <a href="faq.html">FAQ</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </header>
     
-
-    <main>
-        <h2 id="hero">Get spiritual. Get confortable.</h2>
-
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-             <img class="slideImg" src="images/bedroom1.jpg">
-             <div class="caption">Private and Married Bedrooms</div>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" src="images/hero.png" alt="the hand">
             </div>
-  
-            <div class="mySlides fade">
-             <img class="slideImg" src="images/pool.jpg">
-             <div class="caption">Free Indoor Pool</div>
-            </div>
-  
-            <div class="mySlides fade">
-             <img class="slideImg" src="images/gym.jpg">
-             <div class="caption">Free Fit Gym</div>
-            </div> 
+        
+            <section id="hero-msg">
+            <h1 class="home-title">Are You Brave Enough?</h1>
+            <h4>Have Memories with Sergio Raft Mania</h4>
+                <div class='button-box'>
+                 <a class='book' href="#">Let's Go !</a>
+                </div>
+            </section>
         </div>
         
+        <main class="home-grid">
 
-        <a href="temple.html"><img class="imgButton" src="images/temple.png"></a>
+            <section class="rivers-card">
+                <img class="card-img" src="images/rivers.jpg" alt="river in forest">
+                <img class="icon" src="images/river_icon.png" alt="river icon">
+                <h2>Rivers</h2>
+            </section>
+            <section class="camping-card">
+                <img class="card-img" src="images/camping.jpg" alt="tent in mountains">
+                <img class="icon" src="images/fire_icon.png" alt="fire icon">
+                <h2>Camping</h2>
+            </section>
+            <section class="rapids-card">
+                <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
+                <img class="icon" src="images/oars.png" alt="oars icon">
+                <h2>Rapids</h2>
+            </section>
 
-        <a href="service.html"><img class="imgButton" src="images/service.png"></a>
+            <div id="background"></div>
 
-        <h2>There is no place like home. With that in mind, we build our lodges to be as closest as possible to a cozy
-            and familiar place where you can say: "home sweet home."
-        </h2>
+            <img class="mountains" src="images/mountains.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More Than Just The Thrill</h2>
+                <p>Enjoy the ride. From valleys, meadows, canyons, and high peaks; it's no more than just the rapids. 
+                    It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
+                <a class='join' href="#">Join Us</a>
+            </section>
 
-        <h2>Use your search engine to look for temples you are interested in visiting. We would show you our lodge and all the amenities
-            that can go along with it. You can bookmark your favorite temples for a personalized page. Feel free to conctact us even before
-            booking, we can give you a tour and show you around. There is also a number of free services, such as the missionary work, do not
-            miss out this unique change to know more about the backstore of those beautiful temples.
-        </h2>
+        </main>
 
-        <a href="reservation.html"><button id="bodyButton">Make a Reservation</button></a>
-
-    </main>
-
-    <footer>
-        <h2 id="footerName"> Sweet Suite</h2>
-        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
-        <p>contactus@asweetsuite.org</p>
-        <p>+1 (801) 2369-9696 </p> 
-        <a id="mapLink" href="https://goo.gl/maps/8MEgmCgE6EqUaDb66" target="_blank">Location Map 📌</a></p>
-        <p id="lastLine"> &copy; <span id="year"></span> | A Sweet Suite | Sergio Silva | WDD 230 </p>
-    </footer>
-
-    <script src="js/index.js"></script>
-    <script src="js/slideshow.js"></script>
+        <footer>
+            <h3>Sergio Raft Mania &copy; 2022 - Sergio Henrique</h3>
+            <h3><a href="site-plan-rafting.html">Site Plan</a></h3>
+            <h3><a href="contactus.html">Contact Us</a></h3>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    
+    </div>
 
 </body>
+
 </html>
