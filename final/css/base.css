@@ -1,14 +1,16 @@
 
-    @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Martel:wght@200;400;700;900&display=swap');
 
+
+/**** Main Tags **********************************/
     #content{
         max-width: 1600px;
         margin: 0 auto;
     }
 
     body{
-        background-color: lightsteelblue;
-        font-family: "Nunito", sans-serif, arial;
+        background-color: #ffeeff;
+        font-family: 'Martel', serif;
         font-size: 22px;
         margin: 0;
         padding: 0;
@@ -16,15 +18,17 @@
     }
 
     .home-title{ 
-        font-family: "Mochiy Pop O One", sans-serif, arial;
+        text-shadow: 5px 1px 5px black;
+        font-family: 'Dancing Script', cursive;
         font-size: 2em;
         margin-top: 10px;
     }
 
+/*****************Header***********************************/
     header{
         display: grid;
         grid-template-columns: 150px auto;
-        background-color: rgba(0, 0, 0, 0.562);
+        background-color: #c48b9f;
     }
 
     .logo{ width: 80px;}
@@ -34,31 +38,36 @@
         align-self: center;
     }
 
+/*****************Nav***********************************/
     nav{
         display: flex;
         justify-content: space-around;
         opacity: 70%;
     }
     nav a{
-        color: orange;
+        color: white;
+        text-shadow: 1px 1px 1px black;
         font-weight: bold;
         text-align: center;
         text-decoration: none;
         padding: 35px;
     }
 
-    nav a:hover { background-color:  lightskyblue; color: black;}
+    nav a:hover { background-color:  white; color: black;}
 
     .book, .join{
-        background-color: lime;
+        background-color: #f8bbd0;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+        border: 5px solid white;
         text-decoration: none;
         font-weight: bolder;
         font-size: 18px;
         padding: 15px 30px;
         margin-top: 50px;
-        border-radius: 5px;
+        border-radius: 10px;
     }
-    .book:hover, .join:hover{ background-color: orange;}
+    .book:hover, .join:hover{ background-color: white;}
 
 
     #hero{
@@ -79,9 +88,40 @@
         grid-column: 2/3;
         grid-row: 1/2;
         margin-top: 120px;
+        animation-name: textFade;
+        animation-duration: 2s;
     }
-    #hero-img{  width: 100%; }
+    .hero-img{  width: 100%; }
 
+    @keyframes textFade {
+        from {opacity: 0%;}
+        to {opacity: 100%;}
+      }
+
+/************* Slideshow **********************************************/
+
+.caption {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 2px black;
+  position: relative;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*************** Shared Between Pages **********************/
     h1{
         text-align: center;
         color: white;
@@ -106,7 +146,7 @@
         padding-top: 10px;
     }
 
-
+/*************** Home Page **********************/
     .home-grid{
         text-align: center;
         display: grid;
@@ -119,7 +159,7 @@
     }
 
     .card-img {
-        border: 10px solid #d9c2a3;
+        border: 10px solid #f8bbd0;
         width: 100%;
         transition: transform .5s;
         box-shadow: 5px 5px 10px #6f7364;
@@ -147,7 +187,7 @@
 
     #background {
         height: 725px;
-        background-color: lightsalmon;
+        background-color: #c48b9f;
         margin-bottom: 40px;
         grid-column: 1/11;
         grid-row: 4/9;
@@ -176,16 +216,17 @@
     }
 
 
+/*************** Footer  ***********************************/    
     footer{
-        background-color: black;
-        color: white;
+        background-color: #c48b9f;
+        font-family: 'Martel', serif;
         padding: 25px 50px;
         margin-top: 200px;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    footer a{ text-decoration: none; color: orange;}
+    footer a{ text-decoration: none; color: white; text-shadow: 1px 1px 1px black;}
     footer h3 a:hover{ text-decoration: underline;}
     footer .social img { padding-top: 15px; }
 
