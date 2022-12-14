@@ -1,7 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Martel:wght@200;400;700;900&display=swap');
-
 
 @media screen and (max-width: 1200px) {
 
-   
+
+        /************* Main Tags **********************************/
+
+        
+        main{
+            margin: 20px 60px;
+           
+        }
+        
+        /*****************Header***********************************/
+
+        
+        /*****************Nav***********************************/
+        
+        
+        
+        
+        /*************** Shared Between Pages **********************/
+
+       
+        /*************** Home Page *********************************/
+        #weather{
+            
+            text-shadow: 1px 1px 1px rgb(101, 101, 101);
+            margin: 50px 20%;
+            border-radius: 100px;
+        
+        }
+
+        
+        /************* Slideshow **********************************************/
+    
+        
+        
+        /********************* Temples Page *********************************/
+        .cards section{
+            margin: 70px 0px;
+        }
+
+        .cards img{
+            width: 70%;
+        }
+        
+        
+        /***************** Services Page ****************************/
+        .service-grid{
+            display: block;
+            margin-bottom: 120px;
+            }
+    
+
+        
+            .card-img{
+                transition: none;
+                width: 60%;
+                margin-top: 100px;
+            }
+            .card-img:hover{
+                opacity: 1;
+                transform: scale(1);
+            }
+       
+        
+        
+        /***************** Reservation Page ****************************/
+       
+        
+        
+        /*************** Footer  ***********************************/    
+      
+        
 }

@@ -344,10 +344,11 @@ padding: 10px 50px;
 font-size: 1.1em;
 }
 
-/*** To setup later **/
-.radiolist{
-display: contents;
+.radiolist, .checkboxes{
+    display: block;
+    margin: 20px 5px;
 }
+
 
 .submitButton{  
 background-color: #f8bbd0;

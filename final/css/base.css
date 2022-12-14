@@ -1,9 +1,18 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Martel:wght@200;400;700;900&display=swap');
-
-
     @media screen and (max-width: 900px) {
 
+          /************* Main Tags **********************************/
+
+        
+          main{
+            margin: 20px 0px;
+           
+        }
+
+          /*****************Header***********************************/
+
+        
+        /*****************Nav***********************************/
         nav a:nth-child(even){
             background-color: #b47f92;
         }
@@ -12,6 +21,20 @@
             background-color: #8f6574;
         }
 
+        nav, footer {
+            flex-direction: column;
+        }
+        nav a {
+            display: block;
+            padding: 15px;
+        }
+        
+        
+        
+/*************** Shared Between Pages **********************/
+
+       
+/*************** Home Page *********************************/
         #hero-box{
             display: none;
         }
@@ -20,13 +43,7 @@
             display: block;
             height: auto;
         }
-        nav, footer {
-            flex-direction: column;
-        }
-        nav a {
-            display: block;
-            padding: 15px;
-        }
+      
         #hero {
             margin-top: 0;
         }
@@ -51,8 +68,38 @@
             width: 80%;
             display: block;
             margin: 0 auto;
-        }
+        }        
+
+        
+/************* Slideshow **********************************************/
+    
+        
+        
+/********************* Temples Page *********************************/
+.cards {
+   display: block;
+}
+
+
+.cards img{
+    width: 70%;
+}
+
+.cards section{
+    margin: 0px 25px 200px;
+}
+        
+        
+/***************** Services Page ****************************/
+  
+        
+/***************** Reservation Page ****************************/
+       
+        
+        
+/*************** Footer  ***********************************/  
         footer {
             margin-top: 25px;
-        }
+            text-align: center;
+        } 
     }
