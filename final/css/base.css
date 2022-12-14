@@ -52,9 +52,10 @@
 
 /*************** Shared Between Pages **********************/
     #pageName{
-        text-shadow: 5px 1px 5px black;
+        text-shadow: 5px 1px 5px rgb(144, 144, 144);
         font-family: 'Dancing Script', cursive;
-        font-size: 2em;
+        font-size: 3em;
+        padding: 50px;
     }
 
     .button-box{
@@ -231,7 +232,41 @@
       to {opacity: 1}
     }
 
-/***************** Services Page ****************************/
+
+
+/********************* Temples Page *********************************/
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    font-size: 1.2em;
+}
+
+.cards img{
+    width: 60%;
+    margin: auto;
+    border: 5px  outset white;
+    border-radius: 50px;
+    
+}
+
+.cards h2{
+    text-align: left;
+    font-family: 'Martel', serif;
+    text-shadow: 1px 1px 1px #c48b9f;
+}
+
+.cards p{
+    font-family: sans-serif;
+    text-align: left;
+}
+
+
+
+
+
+
+    /***************** Services Page ****************************/
 #servicesList{
     text-align: left;
 }
@@ -317,6 +352,14 @@
 Mobile Resizing
 **************************************************************************/
     @media screen and (max-width: 900px) {
+
+        nav a:nth-child(even){
+            background-color: #b47f92;
+        }
+        
+        nav a:nth-child(odd){
+            background-color: #8f6574;
+        }
 
         #hero-box{
             display: none;
