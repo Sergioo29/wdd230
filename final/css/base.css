@@ -325,13 +325,19 @@
 
 }
 
-#reservationGrid form{
-    margin: 0px 30px;
+#reservationGrid img{
+    border: 10px outset #f8bbd0;
+    width: 100%;
 }
 
-#reservationGrid img{
-    border: 10px solid #f8bbd0;
-    width: 100%;
+#reservationGrid form{
+    margin: 0px 30px;
+    text-align: left;
+}
+
+#reservationGrid input{
+    width: 80%;
+    padding: 10px 50px;
 }
 
 .submitButton{  
