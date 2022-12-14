@@ -27,7 +27,7 @@
         <div id="hero-box">
             <div class="slideshow-container">
                 <div class="mySlides fade">
-                 <img class="hero-img slideImg" src="images/hero.jpg">
+                 <img class="hero-img slideImg" src="images/bedroom1.jpg">
                  <div class="caption">Private and Married Bedrooms</div>
                 </div>
       
@@ -44,10 +44,10 @@
         </div>
     
         <section id="hero-msg">
-        <h1 class="home-title">A Sweet Suite</h1>
-        <h4>Get Confortable. Get Spiritual.</h4>
+        <h1 id="websiteName">A Sweet Suite</h1>
+        <h4 id="websiteJingle">Get Confortable. Get Spiritual.</h4>
             <div class='button-box'>
-             <a class='book' href="reservation.html">Make a Reservation</a>
+             <a class='reserveButton' href="reservation.html">Make a Reservation</a>
             </div>
         </section>
     </div>
@@ -60,36 +60,65 @@
 
         <div class="home-grid">
 
-            <section class="rivers-card">
-                <img class="card-img" src="images/sandiego.jpg" alt="Bedroom2">
+            <section class="temples-card">
+                <a href="temples.html"><img class="card-img" src="images/temples.jpg" alt="Temples"></a>
                 <h2>Temples</h2>
             </section>
-            <section class="camping-card">
-                <img class="card-img" src="images/bus.jpg" alt="Gym">
+            <section class="services-card">
+                <a href="services.html"><img class="card-img" src="images/bus.jpg" alt="Services"></a>
                 <h2>Services</h2>
             </section>
-            <section class="rapids-card">
-                <img class="card-img" src="images/bedroom2.jpg" alt="Pool">
+            <section class="reservation-card">
+                <a href="reservation.html"><img class="card-img" src="images/bedroom2.jpg" alt="Reservation"></a>
                 <h2>Reservation</h2>
             </section>
 
             <div id="background"></div>
 
-            <img class="mountains" src="images/wedding2.jpg" alt="Wedding">
+            <img class="homeWedding" src="images/wedding2.jpg" alt="Wedding">
             <section class="msg">
                 <h2>A Wedding Even More Special</h2>
-                <p>Feel free to conctact us even before booking, we can give you a tour and show you around. There is also a number of free services, such as the missionary work, do not
-                 miss out this unique change to know more about the backstore of those beautiful temples.</p>
+                <p>One of hour specialities is temple wedding. From a reception hall that can be easily customized
+                    to the catering menu and kitchen access for food preparation and serving. We will make sure this
+                unique moment goes as planned. Enjoy the moment, we take care of the rest. </p>
                 <a class='reserveButton' href="reservation.html">Reserve Now</a>
             </section>
 
         </div>  
     
+        <h2>Contact Us From Social Media</h2>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="Facebook icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="Twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="Instagram icon">
+            </a>
+        </div>
+        
+        <br><br>
+        <h2>Want to check if the weather is good for traveling? Here is the weather here in Maryland:</h2>
+        <div id="weather">              
+            <div>
+                <img id="weathericon" src="images/cloud.png" alt="Weather Icon">
+                <h2><span id="temperature"></span> &deg; F</h2> 
+            </div>
+            <h2 id="weatherdesc"></h2>
+            <hr>
+            <p>Wind Speed: <span id="windspeed"></span> mph</p>
+            <p>Wind Chill: <span id="windchill"></span></p>
+            <p id="weatherCopyright">Weather provided by Openweather</p>
+        </div>
+        
+
     </main>
 
     <footer>
-        <h3 id="footerName">A Sweeet Suite</h3>
-        <h3>&copy; 2022 | Sergio Henrique | </h3>
+        <h3 id="footerName">A Sweet Suite</h3>
+        <h3>&copy; 2022 | Sergio Henrique </h3>
         <h3><a href="site-plan-rafting.html">Location</a></h3>
         <h3><a>Time</a></h3>
         <div class="social">
@@ -107,6 +136,8 @@
 
     <script src="js/index.js"></script>
     <script src="js/slideshow.js"></script>
+    <script src="js/windchill.js"></script>
+
 </body>
 
 </html>

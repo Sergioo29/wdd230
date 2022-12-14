@@ -39,6 +39,7 @@
         color: white;
         text-shadow: 1px 1px 1px black;
         font-weight: bold;
+        font-size: 1.5em;
         text-align: center;
         text-decoration: none;
         padding: 35px;
@@ -56,21 +57,6 @@
         font-size: 2em;
     }
 
-    h1{
-        text-align: center;
-        color: white;
-    } 
-
-    h2{ 
-        font-family: "Mochiy Pop P One", sans-serif, arial;
-        margin: 0
-    }
-
-    h4{
-        text-align: center;
-        color: white;
-    }
-
     .button-box{
         text-align: center;
     }
@@ -80,13 +66,22 @@
         padding-top: 10px;
     }
 
-/*************** Home Page **********************/
+/*************** Home Page *********************************/
 
-    .home-title{ 
+    #websiteName{ 
         text-shadow: 5px 1px 5px black;
         font-family: 'Dancing Script', cursive;
-        font-size: 2em;
+        color: white;
+        text-shadow: 5px 1px 3px black;
+        font-size: 4em;
         margin-top: 10px;
+    }
+
+    #websiteJingle{
+        color: white;
+        text-shadow: 3px 2px 3px black;
+        font-size: 1.5em;
+        margin-bottom: 50px;
     }
 
     .home-grid{
@@ -95,7 +90,7 @@
         grid-template-columns: repeat(10, 1fr);
     }
 
-    .book, .reserveButton{
+    .reserveButton{
         background-color: #f8bbd0;
         color: white;
         text-shadow: 1px 1px 1px black;
@@ -107,8 +102,7 @@
         margin-top: 50px;
         border-radius: 10px;
     }
-    .book:hover, .reserveButton:hover{ background-color: white;}
-
+    .reserveButton:hover{ background-color: white; color: black;}
 
     #hero{
         display: grid;
@@ -124,12 +118,15 @@
 
     #hero-msg{
         text-align: center;
+        text-shadow: 1px 1px 1px black;
         padding-bottom: 35px;
         grid-column: 2/3;
         grid-row: 1/2;
         margin-top: 120px;
         animation-name: textFade;
         animation-duration: 2s;
+        background-color: rgba(0, 0, 0, 50%);
+        border-radius: 200px;
     }
     .hero-img{  width: 100%; }
 
@@ -151,19 +148,20 @@
     .card-img:hover{
         opacity: .6;
         transform: scale(1.1);
+        cursor: pointer;
     }
 
-    .rivers-card{ 
+    .temples-card{ 
         margin: 200px 0; 
         grid-column: 2/4;
         grid-row: 2/3;
     }
-    .camping-card{ 
+    .services-card{ 
         margin: 200px 0; 
         grid-column: 5/7;
         grid-row: 2/3;
     }
-    .rapids-card{ 
+    .reservation-card{ 
         margin: 200px 0; 
         grid-column: 8/10;
         grid-row: 2/3;
@@ -177,7 +175,7 @@
         grid-row: 4/9;
     }
 
-    .mountains{ 
+    .homeWedding{ 
         width: 100%;
         grid-column: 2/7;
         grid-row: 5/8;
@@ -199,6 +197,17 @@
         padding-bottom: 15px;
     }
 
+    #weather{
+        background-color: #c48b9f;
+        color: white;
+        text-shadow: 1px 1px 1px rgb(101, 101, 101);
+        margin: 50px 30%;
+        border-radius: 100px;
+
+    }
+    #weatherCopyright{
+        font-size: 0.7em;
+    }
 
 /************* Slideshow **********************************************/
     .caption {
