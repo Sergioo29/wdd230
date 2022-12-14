@@ -322,33 +322,46 @@
 #reservationGrid{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    gap: 40px;
 }
 
 #reservationGrid img{
     border: 10px outset #f8bbd0;
     width: 100%;
+    margin: auto;
 }
 
 #reservationGrid form{
-    margin: 0px 30px;
     text-align: left;
 }
 
-#reservationGrid input{
+#reservationGrid label{
+    font-weight: bold;
+}
+
+.inputBox{
     width: 80%;
     padding: 10px 50px;
+    font-size: 1.1em;
+}
+
+/*** To setup later **/
+.radiolist{
+    display: contents;
 }
 
 .submitButton{  
     background-color: #f8bbd0;
     color: white;
+    font-size: 1.1em;
+    font-weight: bold;
     text-shadow: 1px 1px 1px black;
     box-shadow: 5px 5px 5px rgb(88, 88, 88);
-    border: 5px solid white;
+    border: 5px outset white;
     border-radius: 10px;
     text-decoration: none;
     padding: 10px 10px;
+    margin: 10px 20%;
 }
 .submitButton:hover{ background-color: white;}
 
@@ -365,6 +378,7 @@
     }
 
     #footerName{
+        color: white;
         text-shadow: 5px 1px 5px black;
         font-family: 'Dancing Script', cursive;
         font-size: 2em;
