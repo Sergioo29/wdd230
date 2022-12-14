@@ -29,7 +29,7 @@ function displayCard(card){
   p6.innerHTML = `<b>Schedule:</b> ${card.schedule}`;
 
   let like = document.createElement('div');
-  like.innerHTML = `<input class="mycheck" id="check-${card.order}" type="checkbox" onclick="likeTemple(this);"> Like This Temple`;
+  like.innerHTML = `<label class="likeLabel"><input class="mycheck" id="check-${card.order}" type="checkbox" onclick="likeTemple(this);"> Like This Temple </label>`;
 
   cardSec.appendChild(h2);
   cardSec.appendChild(p1);

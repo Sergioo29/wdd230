@@ -263,6 +263,17 @@ font-family: sans-serif;
 text-align: left;
 }
 
+.likeLabel{
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px;
+    border: 4px outset #c48b9f;
+    background-color: #f8bbd0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 20px;
+}
+
 
 /***************** Services Page ****************************/
 
