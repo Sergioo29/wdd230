@@ -5,7 +5,7 @@
 
         
           main{
-            margin: 20px 0px;
+            margin: 20px 25px;
            
         }
 
@@ -45,10 +45,11 @@
         }
       
         #hero {
-            margin-top: 0;
+            margin-top: 0px;
         }
-        #hero-msg {
-            margin-top: 0;
+        #hero-msg{
+            border-radius: 0px;
+            margin-top: -10px;
         }
         #hero-msg h4 {
             display: none;
@@ -57,10 +58,7 @@
             font-size: 25px;
             color: #6f7364;
         }
-        .rivers-card, .camping-card, .rapids-card { 
-            margin: 50px auto;
-            width: 60%;
-        }
+        
         #background {
             display: none;
         }
@@ -70,6 +68,17 @@
             margin: 0 auto;
         }        
 
+        .msg{
+            margin-bottom: 80px;
+        }
+
+        #weather{
+            
+            text-shadow: 1px 1px 1px rgb(101, 101, 101);
+            margin: 50px 8%;
+            border-radius: 100px;
+        
+        }
         
 /************* Slideshow **********************************************/
     
@@ -86,7 +95,7 @@
 }
 
 .cards section{
-    margin: 0px 25px 200px;
+    margin-bottom:  300px;
 }
         
         

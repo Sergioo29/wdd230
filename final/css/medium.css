@@ -22,6 +22,16 @@
 
        
         /*************** Home Page *********************************/
+
+
+        .card-img{
+            transition: none;
+        }
+        .card-img:hover{
+            opacity: 1;
+            transform: scale(1);
+        }
+
         #weather{
             
             text-shadow: 1px 1px 1px rgb(101, 101, 101);
@@ -50,15 +60,13 @@
             display: block;
             margin-bottom: 120px;
             }
-    
-
         
-            .card-img{
+            .service-img{
                 transition: none;
                 width: 60%;
                 margin-top: 100px;
             }
-            .card-img:hover{
+            .service-img:hover{
                 opacity: 1;
                 transform: scale(1);
             }
