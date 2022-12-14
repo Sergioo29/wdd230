@@ -16,20 +16,20 @@ function displayCard(card){
   let p2= document.createElement('p');
   p2.innerHTML = `<b>Phone:</b> ${card.phone}`;
 
-  let p3= document.createElement('p');
+  let p3 = document.createElement('p');
   p3.innerHTML = `<b>Email:</b> ${card.email}`;
 
-  let p4= document.createElement('p');
+  let p4 = document.createElement('p');
   p4.innerHTML = `<b>Services:</b> ${card.services}`;
 
-  let p5= document.createElement('p');
+  let p5 = document.createElement('p');
   p5.innerHTML = `<b>About:</b> ${card.about}`;
 
-  let p6= document.createElement('p');
+  let p6 = document.createElement('p');
   p6.innerHTML = `<b>Schedule:</b> ${card.schedule}`;
 
-  let likeButton = document.createElement('div');
-  likeButton.innerHTML = `<input class="mycheck" id="check-${card.order}" type="checkbox" onclick="likeTemple(this);"> Like This Temple`;
+  let like = document.createElement('div');
+  like.innerHTML = `<input class="mycheck" id="check-${card.order}" type="checkbox" onclick="likeTemple(this);"> Like This Temple`;
 
   cardSec.appendChild(h2);
   cardSec.appendChild(p1);
@@ -38,7 +38,7 @@ function displayCard(card){
   cardSec.appendChild(p4);
   cardSec.appendChild(p5);
   cardSec.appendChild(p6);
-  cardSec.appendChild(likeButton);
+  cardSec.appendChild(like);
   
   document.querySelector('div.cards').appendChild(img);
   document.querySelector('div.cards').appendChild(cardSec);
