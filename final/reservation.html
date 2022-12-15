@@ -44,10 +44,12 @@
             <form action="thankyou.html" method="GET">
               <label>First Name*:<br><input class="inputBox" type="text" name="fname" placeholder="First Name" required></label><br><br>
               <label>Last Name*:<br><input class="inputBox" type="text" name="lname" placeholder="Last Name" required></label><br><br>
+              <label>Address:<br><input class="inputBox" type="text" name="address" placeholder="Address"></label><br><br>
               <label>Email*:<br><input class="inputBox" type="email" name="email" placeholder="example@mail.com" required></label><br><br>
               <label>Cell Phone*:<br><input class="inputBox" type="tel" name="cellphone" placeholder="111 222 3333" pattern="[0-9]{10}" required></label><br><br>
               <label>Start Date*:<br><input class="inputBox" type="date" name="date" required></label><br><br>
               <label>End Date*:<br><input class="inputBox" type="date" name="date" required></label><br><br>
+              <label>Number of People*:<br><input class="inputBox" type="inputbox" name="rooms" placeholder="From 1 to 8" pattern="[1-8]{1}" required></label><br><br>
 
               <fieldset>
                   <legend>Which Temple You Want to Visit?</legend>
@@ -55,6 +57,15 @@
                   <label class="radiolist"><input  type="radio" name="location" value="pl">Portland</label>
                   <label class="radiolist"><input  type="radio" name="location" value="wd">Washington D.C.</label>
               </fieldset>
+
+              <fieldset>
+                <legend>What type of rooms you need?</legend>
+                <label class="checkboxes"><input  type="checkbox" name="rooms" value="singlep">Single Private</label>
+                <label class="checkboxes"><input  type="checkbox" name="rooms" value="single2">Single Shared 2</label>
+                <label class="checkboxes"><input  type="checkbox" name="rooms" value="single4">Single Shared 4</label>
+                <label class="checkboxes"><input  type="checkbox" name="rooms" value="married">Married</label>
+             </fieldset>
+
               <fieldset>
                   <legend>What services you Want to Include?</legend>
                   <label class="checkboxes"><input  type="checkbox" name="include" value="cater">Wedding Reception</label>
