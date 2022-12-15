@@ -36,7 +36,7 @@ nav{
 }
 nav a{
     color: white;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 2px 2px black;
     font-weight: bold;
     font-size: 1.5em;
     text-align: center;
@@ -93,7 +93,7 @@ nav a:hover { background-color:  white; color: black;}
 .reserveButton{
     background-color: #f8bbd0;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 2px 2px black;
     border: 5px outset white;
     text-decoration: none;
     font-weight: bolder;
@@ -274,7 +274,7 @@ text-align: left;
     border: 4px outset #c48b9f;
     background-color: #f8bbd0;
     color: white;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 1px 2px 2px black;
     border-radius: 20px;
 }
 
@@ -321,7 +321,7 @@ margin-bottom: 30px;
 .servicesButton{  
 background-color: #f8bbd0;
 color: white;
-text-shadow: 2px 2px 2px black;
+text-shadow: 1px 2px 2px black;
 border: 5px outset white;
 border-radius: 10px;
 text-decoration: none;
@@ -391,7 +391,7 @@ background-color: #f8bbd0;
 color: white;
 font-size: 1.2em;
 font-weight: bold;
-text-shadow: 1px 1px 1px black;
+text-shadow: 1px 2px 2px black;
 box-shadow: 5px 5px 5px rgb(88, 88, 88);
 border: 5px outset white;
 border-radius: 10px;
