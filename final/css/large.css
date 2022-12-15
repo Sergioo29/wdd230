@@ -208,6 +208,10 @@ main section img {
     border-radius: 100px;
 
 }
+
+#weatherdesc{
+    font-size: 1.1em;
+}
 #weatherCopyright{
     font-size: 0.7em;
 }
