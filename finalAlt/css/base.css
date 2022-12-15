@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Martel:wght@200;400;700;900&display=swap');
+
+/**** Main Tags **********************************/
+body{
+    background-color: #ffeeff;
+    font-family: 'Martel', serif;
+    margin: 0px;
+}
+
+main{
+    text-align: center;
+    margin: 60px 20px;
+    font-weight: light;
+}
+
+footer{
+    background-color: #c48b9f;
+    font-family: 'Martel', serif;
+    text-align: center;
+}
+
+/*****************Header***********************************/
+header{
+    background-color: #c48b9f;  
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+#websiteName{
+    color: white;
+    text-shadow: 5px 1px 5px black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    
+}
+
+#headerButton{
+    background-color: #f8bbd0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 10px;
+
+}
+#headerButton:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+/*****************Nav***********************************/
+nav{
+    background-color: #f8bbd0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav a{
+   font-size: 1.2em;
+   font-weight: bold;
+   text-decoration: none;
+   color: black;
+}
+
+nav a:hover{
+    color: #ffeeff;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    
+}
+
+/*************** Shared Between Pages **********************/
+.pageName{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+
+
+/*************** Home Page **********************/
+
+#hero{
+    animation-name: textFade;
+    animation-duration: 2s;
+}
+
+.imgButton{
+    margin: 20px;
+    width: 4%;
+}
+.imgButton:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+#bodyButton{
+    background-color: #f8bbd0;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+#bodyButton:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+@keyframes textFade {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+  }
+
+
+/************* Slideshow **********************************************/
+* {box-sizing:border-box }
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.slideImg{
+    border: 10px solid #c48b9f;
+    border-radius: 5px;
+}
+
+.caption {
+  color: #f2f2f2;
+  text-shadow: 1px 1px 2px black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*************** Footer  ***********************************/
+#mapLink{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+#mapLink:hover{
+    color: white;
+}
+
+/* This is just to fix an issue of the default margin of p*/
+#lastLine{
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
