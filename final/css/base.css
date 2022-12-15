@@ -100,7 +100,19 @@
         
         
 /***************** Services Page ****************************/
-  
+#missionaryGrid, #receptionGrid{
+    display: block;
+    gap: 20px;
+    }
+    
+    .missionaryImg, .receptionImg{
+    width: 90%;
+    margin: 50px 0px;
+    }
+
+    .receptionText{
+        margin-bottom: 100px;
+    }
         
 /***************** Reservation Page ****************************/
        
@@ -108,7 +120,7 @@
         
 /*************** Footer  ***********************************/  
         footer {
-            margin-top: 25px;
+            margin-top: 80px;
             text-align: center;
         } 
     }
