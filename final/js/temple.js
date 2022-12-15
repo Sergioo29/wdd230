@@ -4,7 +4,8 @@ function displayCard(card){
   let cardSec = document.createElement('section');
 
   let img = document.createElement('img');
-  img.setAttribute('src', card.imageurl);
+  img.setAttribute('data-src', card.imageurl);
+  img.setAttribute('src', "images/placeholder.png");
   img.setAttribute('alt', "Temple image");
 
   let h2 = document.createElement('h2');    
