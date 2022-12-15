@@ -341,7 +341,7 @@ align-items: center;
 .missionaryImg, .receptionImg{
 border: 5px outset #c48b9f;
 box-shadow: 5px 5px 10px #6f7364;
-
+width: 100%;
 }
 
 
