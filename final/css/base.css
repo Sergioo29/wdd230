@@ -115,7 +115,22 @@
     }
         
 /***************** Reservation Page ****************************/
-       
+
+#reservationGrid{
+    margin: 20px 0px;
+}
+
+    #reservationGrid img{
+        margin: 50px 0px;
+    }
+
+    fieldset{
+        margin: 50px 0px;
+    }
+
+    textarea{
+        width: 100%;
+    }
         
         
 /*************** Footer  ***********************************/  
